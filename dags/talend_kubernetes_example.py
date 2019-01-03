@@ -32,10 +32,18 @@ try:
         }
     ]
 
-    volume_out = VolumeMount('/opt/talend/out_files/',
-                            mount_path='~/out/',
+    volume_out = VolumeMount('out_path',
+                            mount_path='/opt/talend/out_files/',
                             sub_path=None,
                             read_only=False)
+
+    volume_config= {
+    'hostPath':
+          {
+            'path': '~/out/'
+           }
+        }
+    volume1 = Volume(name='out_path', configs=volume_config)
 
     stgstate = KubernetesPodOperator(
         namespace='default',
@@ -83,6 +91,7 @@ try:
         name="extractcustomers-pod",
         in_cluster=True,
         volume_mounts=[volume_out],
+        volume=[volume1],
         task_id="extractcustomers",
         get_logs=True,
         dag=dag,

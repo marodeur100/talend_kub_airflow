@@ -13,6 +13,6 @@ stop_compose:
 	docker-compose -f docker-compose-stg.yml down
 
 deploy_dag:
-	kubectl get pods	
-	echo "sudo kubectl cp dags/talend_kubernetes_example.py <pod>:/root/airflow/dags -c scheduler"
+	WEB=$(sudo kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}' | grep "airflow" | head -1)
+	sudo kubectl cp dags/talend_kubernetes_example.py $WEB :/root/airflow/dags -c scheduler
 
