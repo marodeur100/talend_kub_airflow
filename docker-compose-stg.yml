@@ -23,7 +23,7 @@ services:
         depends_on:
             - "postgres"
     aggcustomers:
-        image: marodeur100/loadaggcustomers:0.1
+        image: marodeur100/loadaggrcustomers:0.1
         environment:
             - ARGS=--context_param postgres_Server=postgres --context_param postgres_Port=5432
         depends_on:
