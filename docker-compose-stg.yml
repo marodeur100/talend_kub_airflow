@@ -1,0 +1,42 @@
+version: '2.1'
+services:
+    postgres:
+        image: postgres:9.6
+        environment:
+            - POSTGRES_USER=talend
+            - POSTGRES_PASSWORD=talend
+            - POSTGRES_DB=talend
+        # ports:
+        #     - "5433:5432"
+        volumes:
+            - ./pgdata:/var/lib/postgresql/data
+    stgstate:
+        image: marodeur100/loadstatetostaging:0.1
+        environment:
+            - ARGS=--context_param csvfolder=/opt/talend/input_files/ --context_param postgres_Server=postgres --context_param postgres_Port=5432
+        depends_on:
+            - "postgres"
+    stgcustomers:
+        image: marodeur100/loadcustomerstostaging:0.1
+        environment:
+            - ARGS=--context_param csvfolder=/opt/talend/input_files/ --context_param postgres_Server=postgres --context_param postgres_Port=5432
+        depends_on:
+            - "postgres"
+    aggcustomers:
+        image: marodeur100/loadaggcustomers:0.1
+        environment:
+            - ARGS=--context_param postgres_Server=postgres --context_param postgres_Port=5432
+        depends_on:
+            - "stgstate"
+            - "stgcustomers"
+    extractcustomers:
+        image: marodeur100/extractcustomernf:0.1
+        environment:
+            - ARGS=--context_param outfolder=/opt/talend/out_files/ --context_param postgres_Server=postgres --context_param postgres_Port=5432
+        depends_on:
+            - "aggcustomers"
+        volumes:
+            - ./talend/out:/opt/talend/out_files/
+
+
+
