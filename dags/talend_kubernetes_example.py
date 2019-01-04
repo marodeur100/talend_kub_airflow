@@ -32,7 +32,7 @@ try:
         }
     ]
 
-    volume_out = VolumeMount('out_path',
+    volume_out = VolumeMount('outpath',
                             mount_path='/opt/talend/out_files/',
                             sub_path=None,
                             read_only=False)
@@ -40,10 +40,10 @@ try:
     volume_config= {
     'hostPath':
           {
-            'path': '~/out/'
+            'path': '/home/osboxes/out/'
            }
         }
-    volume1 = Volume(name='out_path', configs=volume_config)
+    volume1 = Volume(name='outpath', configs=volume_config)
 
     stgstate = KubernetesPodOperator(
         namespace='default',
@@ -90,9 +90,9 @@ try:
         env_vars={"ARGS": "--context_param outfolder=/opt/talend/out_files/ --context_param postgres_Server=postgres-airflow --context_param postgres_Login=root --context_param postgres_Password=root --context_param postgres_Database=airflow --context_param postgres_Port=5432"},
         name="extractcustomers-pod",
         in_cluster=True,
+        volumes=[volume1],
         volume_mounts=[volume_out],
-        volume=[volume1],
-        task_id="extractcustomers",
+	task_id="extractcustomers",
         get_logs=True,
         dag=dag,
         is_delete_operator_pod=False,
