@@ -1,4 +1,4 @@
-.PHONY: run build
+.PHONY: build deploy_dag
 
 build:
 	docker build -t marodeur100/loadstatetostaging:0.1 --build-arg talend_job=LoadStateToStaging --build-arg talend_version=0.1 .
@@ -13,6 +13,6 @@ stop_compose:
 	docker-compose -f docker-compose-stg.yml down
 
 deploy_dag:
-	WEB=$(sudo kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}' | grep "airflow" | head -1)
-	sudo kubectl cp dags/talend_kubernetes_example.py $WEB :/root/airflow/dags -c scheduler
-
+	sed -i "s|/home/osboxes/out/|$$PWD/talend/output_file/|g" dags/talend_kubernetes_example.py
+	sed -i "s|/home/osboxes/in/|$$PWD/talend/input_files/|g" dags/talend_kubernetes_example.py
+	WEB="$(shell sudo kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}' | grep "airflow" | head -1)"; sudo kubectl cp dags/talend_kubernetes_example.py "$$WEB":/root/airflow/dags -c scheduler

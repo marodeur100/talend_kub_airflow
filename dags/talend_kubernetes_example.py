@@ -32,24 +32,42 @@ try:
         }
     ]
 
+    # Input File Volume
+    volume_in = VolumeMount('inpath',
+                            mount_path='/opt/talend/input_files/',
+                            sub_path=None,
+                            read_only=False)
+
+    volume_config_in= {
+    'hostPath':
+          {
+            'path': '/home/osboxes/talend_kub_airflow/talend/input_files/'
+           }
+        }
+    volume1 = Volume(name='inpath', configs=volume_config_in)
+
+
+    # Output File Volume
     volume_out = VolumeMount('outpath',
                             mount_path='/opt/talend/out_files/',
                             sub_path=None,
                             read_only=False)
 
-    volume_config= {
+    volume_config_out= {
     'hostPath':
           {
-            'path': '/home/osboxes/out/'
+            'path': '/home/osboxes/talend_kub_airflow/talend/output_file/'
            }
         }
-    volume1 = Volume(name='outpath', configs=volume_config)
+    volume2 = Volume(name='outpath', configs=volume_config_out)
 
     stgstate = KubernetesPodOperator(
         namespace='default',
         image="marodeur100/loadstatetostaging:0.1",
         env_vars={"ARGS": "--context_param csvfolder=/opt/talend/input_files/ --context_param postgres_Server=postgres-airflow --context_param postgres_Login=root --context_param postgres_Password=root --context_param postgres_Database=airflow --context_param postgres_Port=5432"},
         name="stgstate-pod",
+        volumes=[volume1],
+        volume_mounts=[volume_in],
         in_cluster=True,
         task_id="stgstate",
         get_logs=True,
@@ -63,6 +81,8 @@ try:
         image="marodeur100/loadcustomerstostaging:0.1",
         env_vars={"ARGS": "--context_param csvfolder=/opt/talend/input_files/ --context_param postgres_Server=postgres-airflow --context_param postgres_Login=root --context_param postgres_Password=root --context_param postgres_Database=airflow --context_param postgres_Port=5432"},
         name="stgcustomers-pod",
+        volumes=[volume1],
+        volume_mounts=[volume_in],
         in_cluster=True,
         task_id="stgcustomers",
         get_logs=True,
@@ -90,7 +110,7 @@ try:
         env_vars={"ARGS": "--context_param outfolder=/opt/talend/out_files/ --context_param postgres_Server=postgres-airflow --context_param postgres_Login=root --context_param postgres_Password=root --context_param postgres_Database=airflow --context_param postgres_Port=5432"},
         name="extractcustomers-pod",
         in_cluster=True,
-        volumes=[volume1],
+        volumes=[volume2],
         volume_mounts=[volume_out],
 	task_id="extractcustomers",
         get_logs=True,
