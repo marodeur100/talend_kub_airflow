@@ -87,3 +87,7 @@ sudo kubectl get pods
 ```
 * Find input CSVs under talend/input_files
 * Find result CSV under talend/output_file
+
+## Optional Talend(TOS) and ETL Example Code Installation
+* In case you want to see/change the [ETL code](https://github.com/marodeur100/talend_customer_example)
+* TOS installation not manadatory for Airflow & Kubernetes Demo
