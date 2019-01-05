@@ -50,10 +50,25 @@ sudo minikube status
 ```
 
 # Install Aiflow on Kubernetes
-```git
-git clone https://github.com/apache/airflow
-```
+* in your home directory:
 ```shell
+git clone https://github.com/apache/airflow
+# Build
 export SLUGIFY_USES_TEXT_UNIDECODE=yes
+./scripts/ci/kubernetes/Docker/build.sh
+# Deploy
+sudo ./scripts/ci/kubernetes/kube/deploy.sh -d persistent_mode
+```
+* Wait until airflow comes up (may take 2 minutes)
+* You should be able to connect to the Airflow UI via http://localhost:30809 
+* Login with airflow/airflow
 
+# Install the example
+* in your home directory:
+```shell
+git clone https://github.com/apache/airflow
+# Build
+sudo make build
+# Deploy DAG to airflow
+sudo make deploy_dag
 ```
