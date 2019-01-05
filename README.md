@@ -43,12 +43,14 @@ chmod +x minikube-linux-amd64
 sudo mv minikube-linux-amd64 /usr/local/bin/minikube
 ```
 
-## (Re)Start steps for Minikube
+## (Cleanup and Re)Start Minikube
 ```shell
+# Optional Cleanup tasks
 cd /etc/kubernetes/ && \
 sudo rm *.conf && \
 cd && \
 sudo minikube delete # may also need rm -rf ~/.minikube && \
+# Start Minikube
 sudo minikube start --vm-driver=none
 sudo minikube status
 ```
