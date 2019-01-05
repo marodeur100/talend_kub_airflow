@@ -1,7 +1,8 @@
 
+#Master DevOps Data Architectures with Apache Airflow, Kubernetes and Talend
+The Demo will run 4 Talend ETL jobs on Airflow/Minikube using the new KuberntesPodOperator. Two CSV input files with customers and states will be aggregated into a postgres DB and finally written out into a CSV result file.
 
-
-Follow the installation guide
+Follow the guide step by step
 # Ubuntu Image Installation on Windows 10
 * Download and install [Virtual Box](https://www.virtualbox.org/)
 * Download Ubuntu 18.04 64Bit VDI [Image](https://www.osboxes.org/)
@@ -49,7 +50,7 @@ sudo minikube start --vm-driver=none
 sudo minikube status
 ```
 
-# Install Aiflow on Kubernetes
+# Install Airflow on Kubernetes
 * in your home directory:
 ```shell
 git clone https://github.com/apache/airflow
@@ -66,9 +67,18 @@ sudo ./scripts/ci/kubernetes/kube/deploy.sh -d persistent_mode
 # Install the example
 * in your home directory:
 ```shell
-git clone https://github.com/apache/airflow
+git clone https://github.com/marodeur100/talend_kub_airflow.git
 # Build
 sudo make build
 # Deploy DAG to airflow
 sudo make deploy_dag
 ```
+
+# Start the Example
+* in the airflow UI: enable and start talend_kubernetes_example
+* check pods created, running and completed with:
+```shell
+sudo kubectl get pods
+```
+* Find input CSVs under talend/input_files
+* Find result CSV under talend/output_file
