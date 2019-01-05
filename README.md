@@ -9,7 +9,10 @@ Follow the guide step by step
 * Create New Linux Ubuntu 64 Bit VM in your VirtualBox and use VDI Image as Filesystem
 * Assigne 10GB RAM and 4 CPU minimum 
 * Start VM and open a console
-* Correct keyboard layout: sudo dpkg-reconfigure keyboard-configuration
+* Correct keyboard layout if necessary
+```shell
+sudo dpkg-reconfigure keyboard-configuration
+```
 
 # Docker 18.06 Install
 ```shell
