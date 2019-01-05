@@ -1,5 +1,5 @@
 
-# Master DevOps Data Architectures with Apache Airflow, Kubernetes and Talend
+# [Master DevOps Data Architectures with Apache Airflow, Kubernetes and Talend](https://medium.com/@fklemm100/master-devops-data-architecture-with-apache-airflow-kubernetes-and-talend-60368e63e14f)
 The Demo will run 4 Talend ETL jobs on Airflow/Minikube using the new KuberntesPodOperator. Two CSV input files with customers and states will be aggregated into a postgres DB and finally written out into a CSV result file.
 
 Follow the guide step by step
