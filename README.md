@@ -1,9 +1,9 @@
 
-#Master DevOps Data Architectures with Apache Airflow, Kubernetes and Talend
+# Master DevOps Data Architectures with Apache Airflow, Kubernetes and Talend
 The Demo will run 4 Talend ETL jobs on Airflow/Minikube using the new KuberntesPodOperator. Two CSV input files with customers and states will be aggregated into a postgres DB and finally written out into a CSV result file.
 
 Follow the guide step by step
-# Ubuntu Image Installation on Windows 10
+## Ubuntu Image Installation on Windows 10
 * Download and install [Virtual Box](https://www.virtualbox.org/)
 * Download Ubuntu 18.04 64Bit VDI [Image](https://www.osboxes.org/)
 * Create New Linux Ubuntu 64 Bit VM in your VirtualBox and use VDI Image as Filesystem
@@ -14,7 +14,7 @@ Follow the guide step by step
 sudo dpkg-reconfigure keyboard-configuration
 ```
 
-# Docker 18.06 Install
+## Docker 18.06 Install
 ```shell
 # Curl
 sudo apt-get install curl
@@ -34,7 +34,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-# Minikube 28.02 and Kubectl
+## Minikube 28.02 and Kubectl
 * Follow the steps of the [Installation Guide](https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-18-04/)
 * Attention: Install Minikube 28.02, latest did not work properly when I tried it
 ```shell
@@ -43,7 +43,7 @@ chmod +x minikube-linux-amd64
 sudo mv minikube-linux-amd64 /usr/local/bin/minikube
 ```
 
-# (Re)Start steps for Minikube
+## (Re)Start steps for Minikube
 ```shell
 cd /etc/kubernetes/ && \
 sudo rm *.conf && \
@@ -53,7 +53,7 @@ sudo minikube start --vm-driver=none
 sudo minikube status
 ```
 
-# Install Airflow on Kubernetes
+## Install Airflow on Kubernetes
 * in your home directory:
 ```shell
 git clone https://github.com/apache/airflow
@@ -67,7 +67,7 @@ sudo ./scripts/ci/kubernetes/kube/deploy.sh -d persistent_mode
 * You should be able to connect to the Airflow UI via http://localhost:30809 
 * Login with airflow/airflow
 
-# Install the example
+## Install the example
 * in your home directory:
 ```shell
 git clone https://github.com/marodeur100/talend_kub_airflow.git
@@ -77,7 +77,7 @@ sudo make build
 sudo make deploy_dag
 ```
 
-# Start the Example
+## Execute the Example
 * in the airflow UI: enable and start talend_kubernetes_example
 * check pods created, running and completed with:
 ```shell
