@@ -7,7 +7,7 @@ Follow the guide step by step
 * Download and install [Virtual Box](https://www.virtualbox.org/)
 * Download Ubuntu 18.04 64Bit VDI [Image](https://www.osboxes.org/)
 * Create New Linux Ubuntu 64 Bit VM in your VirtualBox and use VDI Image as Filesystem
-* I used 10GB RAM and 4 CPU. Not sure whether 4 GB and 2 CPU would be also work fine. The default setting will crash the demo
+* I have assigned 10GB RAM and 4 CPU to the VM. Not sure whether 4 GB and 2 CPU would be also work fine. The default setting will crash the demo
 * Start VM and open a console
 * Correct keyboard layout if necessary
 ```shell
