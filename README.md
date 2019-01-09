@@ -33,7 +33,8 @@ su - ${USER}
 sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 ```
-
+## (Optional) Orange for Data Visualization
+* Follow [Install Guide](https://github.com/biolab/orange3/wiki/Installation-on-Ubuntu-16.04-LTS)
 ## Minikube 28.02 and Kubectl
 * Follow the steps of the [Installation Guide](https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-18-04/)
 * Attention: Install Minikube 28.02, latest did not work properly when I tried it
