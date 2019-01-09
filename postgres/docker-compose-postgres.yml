@@ -9,4 +9,4 @@ services:
         ports:
             - "5433:5432"
         volumes:
-            - ./backups:/home/backups
+            - /home/osboxes/talend_kub_airflow/postgres/backups:/home/backups
