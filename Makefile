@@ -19,3 +19,10 @@ deploy_dag:
 
 clean_pods:
 	sudo kubectl delete pods --field-selector status.phase!=Running
+
+grafana:
+	sudo kubectl apply   --filename grafana/grafana.yaml
+
+grafana_port:
+	POD_NAME="$(shell sudo kubectl get pods --namespace monitoring -l "app=grafana,component=core" -o jsonpath="{.items[0].metadata.name}")"; sudo kubectl port-forward --namespace monitoring $$POD_NAME 3000:3000
+
