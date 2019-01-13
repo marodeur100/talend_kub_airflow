@@ -9,7 +9,7 @@
         "database.password": "root",
         "database.dbname" : "airflow",
         "database.server.name": "dbserver1",
-        "database.history.kafka.bootstrap.servers": "kafka:9092",
+        "database.history.kafka.bootstrap.servers": "kafka-broker1:9092",
         "database.history.kafka.topic": "schema-changes.airflow"
     }
 }
