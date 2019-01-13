@@ -1,0 +1,15 @@
+{
+    "name": "airflow-connector",
+    "config": {
+        "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+        "tasks.max": "1",
+        "database.hostname": "postgres-airflow",
+        "database.port": "5432",
+        "database.user": "root",
+        "database.password": "root",
+        "database.dbname" : "airflow",
+        "database.server.name": "dbserver1",
+        "database.history.kafka.bootstrap.servers": "kafka:9092",
+        "database.history.kafka.topic": "schema-changes.airflow"
+    }
+}

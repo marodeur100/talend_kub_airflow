@@ -141,93 +141,59 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mongodb-service
-  namespace: stream
   labels:
     name: mongo
-spec:
-  ports:
-  - port: 27017
-    targetPort: 27017
-  clusterIP: None
-  selector:
-    role: mongo
----
-apiVersion: apps/v1beta1
-kind: StatefulSet
-metadata:
-  name: mongod
+  name: mongo
   namespace: stream
 spec:
-  serviceName: mongodb-service
-  replicas: 3
+  ports:
+    - port: 27017
+      targetPort: 27017
+  selector:
+    name: mongo
+---
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  labels:
+    name: mongo
+  name: mongo-controller
+  namespace: stream
+spec:
+  replicas: 1
   template:
     metadata:
       labels:
-        role: mongo
-        environment: test
-        replicaset: MainRepSet
+        name: mongo
     spec:
-      affinity:
-        podAntiAffinity:
-          preferredDuringSchedulingIgnoredDuringExecution:
-          - weight: 100
-            podAffinityTerm:
-              labelSelector:
-                matchExpressions:
-                - key: replicaset
-                  operator: In
-                  values:
-                  - MainRepSet
-              topologyKey: kubernetes.io/hostname
-      terminationGracePeriodSeconds: 10
-      volumes:
-        - name: secrets-volume
-          secret:
-            secretName: shared-bootstrap-data
-            defaultMode: 256
       containers:
-        - name: mongod-container
-          #image: pkdone/mongo-ent:3.4
-          image: mongo
-          command:
-            - "numactl"
-            - "--interleave=all"
-            - "mongod"
-            - "--wiredTigerCacheSizeGB"
-            - "0.1"
-            - "--bind_ip"
-            - "0.0.0.0"
-            - "--replSet"
-            - "MainRepSet"
-            - "--auth"
-            - "--clusterAuthMode"
-            - "keyFile"
-            - "--keyFile"
-            - "/etc/secrets-volume/internal-auth-mongodb-keyfile"
-            - "--setParameter"
-            - "authenticationMechanisms=SCRAM-SHA-1"
-          resources:
-            requests:
-              cpu: 0.2
-              memory: 200Mi
-          ports:
-            - containerPort: 27017
-          volumeMounts:
-            - name: secrets-volume
-              readOnly: true
-              mountPath: /etc/secrets-volume
-            - name: mongodb-persistent-storage-claim
+      - image: mongo
+        name: mongo
+        ports:
+        - name: mongo
+          containerPort: 27017
+          hostPort: 27017
+        volumeMounts:
+            - name: mongo-persistent-storage
               mountPath: /data/db
-  volumeClaimTemplates:
-  - metadata:
-      name: mongodb-persistent-storage-claim
-      annotations:
-        volume.beta.kubernetes.io/storage-class: "standard"
-    spec:
-      accessModes: [ "ReadWriteOnce" ]
-      resources:
-        requests:
-          storage: 1Gi
+      volumes:
+        - name: mongo-persistent-storage
+          emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: debezium-connect-source
+  namespace: stream
+  labels:
+    app: debezium-connect-source
+    component: core
+spec:
+  type: NodePort
+  ports:
+    - port: 8083
+      nodePort: 30083
+  selector:
+    app: debezium-connect-source
 
 
