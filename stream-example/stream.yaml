@@ -149,7 +149,6 @@ spec:
         - name: CONNECT_INTERNAL_VALUE_CONVERTER
           value: "org.apache.kafka.connect.json.JsonConverter"
         - name: CONNECT_PLUGIN_PATH
-          # value: "/usr/share/java/kafka-connect-elasticsearch,/usr/share/java/debezium-connector-postgres"
           value: "/usr/share/java"
         ports: 
         - containerPort: 8083
@@ -167,24 +166,61 @@ kind: Deployment
 metadata:
   name: elasticsearch
   labels:
-    name: elasticsearch
+    app: elasticsearch
   namespace: stream
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        name: elasticsearch
+        app: elasticsearch
     spec:
+      initContainers:
+      - name: init-sysctl
+        image: busybox:1.27.2
+        command:
+        - sysctl
+        - -w
+        - vm.max_map_count=262144
+        securityContext:
+            privileged: true
       containers:
        - image: docker.elastic.co/elasticsearch/elasticsearch:6.2.1
          name: elasticsearch
          env:
          - name: discovery.type
            value: single-node
+         - name: NAMESPACE
+           value: stream
+         - name: NODE_NAME
+           value: elasticsearch
+         - name: CLUSTER_NAME
+           value: myesdb
+         - name: NUMBER_OF_MASTERS
+           value: "2"
+         - name: NODE_MASTER
+           value: "true"
+         - name: NODE_INGEST
+           value: "false"
+         - name: NODE_DATA
+           value: "false"
+         - name: HTTP_ENABLE
+           value: "true"
+         - name: ES_JAVA_OPTS
+           value: -Xms256m -Xmx256m
+         - name: PROCESSORS
+           value: "1"       
          ports:
-          - name: elasticsearch
-            containerPort: 9200
+           - containerPort: 9200
+             name: http
+           - name: transport
+             containerPort: 9300
+         livenessProbe:
+            httpGet:
+              path: /_cluster/health
+              port: http
+            initialDelaySeconds: 20
+            timeoutSeconds: 5
       nodeSelector:
         beta.kubernetes.io/os: linux
 ---
@@ -193,13 +229,14 @@ kind: Service
 metadata:
   name: elasticsearch
   labels:
-    name: elasticsearch
+    app: elasticsearch
   namespace: stream
 spec:
   type: NodePort
   ports:
     - port: 9200
-      nodePort: 30920
+      name: http
+      nodePort: 30192
   selector:
     app: elasticsearch
 ---
