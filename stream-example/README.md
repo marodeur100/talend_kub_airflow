@@ -1,7 +1,7 @@
 # Streaming Example
 
 ## Prerequists
-* Run Talend, Kubernetes & Airflow demo
+* Run [Talend, Kubernetes & Airflow demo](https://github.com/marodeur100/talend_kub_airflow)
 
 ## Deploy Pods
 * Execute ```sudo make run```
