@@ -15,3 +15,7 @@ cdc:
 logs:
 	POD_NAME="$(shell sudo kubectl get pods -l "app=debezium-connect-source" -o jsonpath="{.items[0].metadata.name}" --namespace=stream)"; sudo kubectl logs $$POD_NAME --namespace=stream
  
+sql:
+	POD_NAME="$(shell sudo kubectl get pods -l "name=postgres-airflow" -o jsonpath="{.items[0].metadata.name}")"; sudo kubectl exec -it $$POD_NAME psql airflow
+
+

@@ -10,6 +10,10 @@
         "database.dbname" : "airflow",
         "database.server.name": "dbserver1",
         "database.history.kafka.bootstrap.servers": "kafka-broker1:9092",
-        "database.history.kafka.topic": "schema-changes.airflow"
+        "database.history.kafka.topic": "schema-changes.airflow",
+        "transforms": "route",
+        "transforms.route.type": "org.apache.kafka.connect.transforms.RegexRouter",
+        "transforms.route.regex": "([^.]+)\\.([^.]+)\\.([^.]+)",
+        "transforms.route.replacement": "$3"
     }
 }
