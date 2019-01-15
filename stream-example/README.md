@@ -12,6 +12,8 @@
 
 ## Start Streamdata Generator
 * The generator sends dummy test data to the topic test
-``sudo apt-get install python-pip
+``shell
+sudo apt-get install python-pip
 pip install kafa
-stream/kafka_producer.py localhost:30092 test``
+python stream/kafka_producer.py localhost:30092 test
+```
