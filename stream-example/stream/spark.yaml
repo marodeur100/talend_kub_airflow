@@ -1,0 +1,87 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: spark-master
+  namespace: stream
+  labels:
+    name: spark-master
+spec:
+  ports:
+    # the port that this service should serve on
+  - name: webui
+    port: 8080
+    targetPort: 8080
+    nodePort: 30880
+  - name: spark
+    port: 7077
+    targetPort: 7077
+    nodePort: 30777
+  type: NodePort
+  selector:
+    name: spark-master
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    name: spark-master
+  name: spark-master
+  namespace: stream
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: spark-master
+    spec:
+      containers:
+      - name : spark-master
+        image: spark-2.1.0-bin-hadoop2.6 
+        imagePullPolicy: "IfNotPresent"
+        name: spark-master
+        ports:
+        - containerPort: 7077
+          protocol: TCP
+        command:
+         - "/bin/bash"
+         - "-c"
+         - "--"
+        args :
+         - './start-master.sh ; sleep infinity'
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    name: spark-worker
+  name: spark-worker
+  namespace: stream
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: spark-worker
+    spec:
+      containers:
+      - image: spark-2.1.0-bin-hadoop2.6 
+        imagePullPolicy : "IfNotPresent"
+        name: spark-worker
+        ports:
+        - containerPort: 7078
+          protocol: TCP
+        resources :
+          requests :
+            cpu : 1
+            memory : "512Mi"
+          limits :
+             cpu : 1
+             memory : "1Gi"
+        command:
+         - "/bin/bash"
+         - "-c"
+         - "--"
+        args :
+        - '. ./start-common.sh ; /opt/spark/sbin/start-slave.sh spark://spark-master:7077 -c 1 -m 1G ; sleep infinity'
+
+

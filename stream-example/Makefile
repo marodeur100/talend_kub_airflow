@@ -18,4 +18,6 @@ logs:
 sql:
 	POD_NAME="$(shell sudo kubectl get pods -l "name=postgres-airflow" -o jsonpath="{.items[0].metadata.name}")"; sudo kubectl exec -it $$POD_NAME psql airflow
 
+generate_msg:
+	python stream/kafka_producer.py localhost:30092 test
 

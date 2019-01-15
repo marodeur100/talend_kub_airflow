@@ -1,0 +1,33 @@
+<h1>Elasticsearch</h1>
+    <br />
+    <input id="searchterm" />
+<button id="search">search</button>
+<div id="results"></div>
+
+<script>
+  $("#search").click(function(e){
+    var data = {
+            query:{match:{_all:$('#searchterm').val()}},
+            fields: '_id'
+            };
+
+            alert(JSON.stringify(data));
+
+          $.ajax({
+            url: 'localhost:30192/customer_nf/_search?q=*&pretty',
+            dataType: 'json',
+            type: 'POST',
+            contentType: 'application/json',
+            crossDomain: true,
+            data: JSON.stringify(data),
+           success: function(data) {
+             // alert(""+JSON.parse(data.hits.total));
+              $("#results").empty();
+              $("#results").append("<p>Results for <b>" + $("#searchterm").val() + "</b></p>");
+              $.each(data.hits.hits, function(i,item){
+                $("#results").append("<div><a href='#'>" + item._id + "</a></div>");
+              });
+            }
+          });
+        });
+</script>
