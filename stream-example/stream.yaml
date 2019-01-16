@@ -85,6 +85,7 @@ spec:
         image: debezium/kafka
         ports:
         - containerPort: 9092
+          hostPort: 9092
         env:
         - name: MY_POD_NAMESPACE
           value: "stream"
