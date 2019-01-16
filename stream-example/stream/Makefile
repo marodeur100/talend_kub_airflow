@@ -13,3 +13,6 @@ get_pods:
 generate:
 	python kafka_producer.py localhost:30092 test
 
+get_topic:
+	POD_NAME="$(shell sudo kubectl get pods -l "app=kafka" -o jsonpath="{.items[0].metadata.name}" -n stream)"; sudo kubectl exec -it $$POD_NAME -n stream -- bin/kafka-console-consumer.sh --bootstrap-server $$POD_NAME:9092 --topic test --from-beginning
+ 
