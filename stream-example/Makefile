@@ -1,6 +1,7 @@
 
 run:
 	sudo kubectl create -f stream.yaml
+	sudo kubectl create -f grafana.yaml
 
 delete:
 	sudo kubectl delete namespace stream
