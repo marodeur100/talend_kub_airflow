@@ -26,3 +26,6 @@ grafana:
 grafana_port:
 	POD_NAME="$(shell sudo kubectl get pods -l "app=grafana,component=core" -o jsonpath="{.items[0].metadata.name}")"; sudo kubectl port-forward $$POD_NAME 3000:3000
 
+key:
+	sudo dpkg-reconfigure keyboard-configuration
+
