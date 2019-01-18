@@ -3,9 +3,9 @@ services:
     postgres:
         image: postgres:9.6
         environment:
-            - POSTGRES_USER=talend
-            - POSTGRES_PASSWORD=talend
-            - POSTGRES_DB=talend
+            - POSTGRES_USER=root
+            - POSTGRES_PASSWORD=root
+            - POSTGRES_DB=airflow
         ports:
             - "5433:5432"
         volumes:
