@@ -29,3 +29,6 @@ grafana_port:
 key:
 	sudo dpkg-reconfigure keyboard-configuration
 
+fix_dns:
+	sudo kubectl get deployment --namespace=kube-system kube-dns -oyaml|sed -r 's,(.*--server)=(/ip6.arpa/.*),&\n\1=8.8.8.8,'|sudo kubectl apply -f -
+
