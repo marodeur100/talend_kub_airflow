@@ -214,7 +214,11 @@ spec:
          - name: ES_JAVA_OPTS
            value: -Xms256m -Xmx256m
          - name: PROCESSORS
-           value: "1"       
+           value: "1"
+         - name: http.cors.enabled
+           value: "true"
+         - name: http.cors.allow-origin
+           value: "*"       
          ports:
            - containerPort: 9200
              name: http

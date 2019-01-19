@@ -1,5 +1,5 @@
 {
-    "name": "airflow-connector",
+    "name": "postgres-connector",
     "config": {
         "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
         "tasks.max": "1",

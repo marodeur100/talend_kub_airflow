@@ -1,83 +1,4 @@
 id;CustomerName;CustomerAddress;State
-1;Griffith Paving and Sealcoatin;talend@apres91;Florida
-2;Air Mexico;511 Maple Ave.  Apt. 1B;Ohio
-3;Childress Child Day Care;662 Lyons Circle;Alabama
-4;Facelift Kitchen and Bath;unknown;
-5;Terrinni & Son Auto and Truck;770 Exmoor Rd.;
-6;Kermit the Pet Shop;1860 Parkside Ln.;Nevada
-7;Tub's Furniture Store;807 Old Trail Rd.;Iowa
-8;Toggle & Myerson Ltd;618 Sheriden rd.;Florida
-9;Childress Child Day Care;788 Tennyson Ave.;Idaho
-10;Elle Hypnosis and Therapy Cent;2032 Northbrook Ct.;Alabama
-11;Lennox Air Pollution Control;4522 N. Greenview Apt. 1B;West Virginia
-12;Keyth Contracting and Repair;1547 Knolwood Rd.;Missouri
-13;Park District Of America;2678 Sheridan Rd.;Virginia
-14;Nirabi Auto Service;1915 Lewis Ln.  Apt 13;Delaware
-15;Darcy Frame and Matting Servic;1633 McGovern place;Massachusetts
-16;Glenwood Credit Union;511 Maple Ave.  Apt. 1B;Virginia
-17;Gourmet the Frog;788 Tennyson Ave.;Alabama
-18;Acturial Enterprises Ltd.;3385 University Ave.;North Dakota
-19;Salt & Pepper Catering Service;965 Marion Place Apt. 65C;Utah
-20;Rythmics Ltd.;1875 Roger Williams Ave.;Michigan
-21;Parkway Auto Body;1859 Green Bay Rd.;Nebraska
-22;Futoons Cartoons Emporium;1486 Old Deerfield Rd.;Mississippi
-23;Glenn Oaks Office Supplies;1882 St. Johns;Georgia
-24;Garfield Appliance Service;3150 Skokie Valley Rd.;North Carolina
-25;New Dehli Auto Exchange;1957 Huntington Ave.;Wisconsin
-26;Kermit the Pet Shop;12 Skokie Valley Rd.;Vermont
-27;Hibbard Road Suppliers;1858 Balsam Way;Nevada
-28;Peterson Roberts Carpentry;59 Cordon Terr.;Idaho
-29;Acme Chemical Supply;1858 Balsam Way;Colorado
-30;Truck-X Muffler Repair;807 Old Trail Rd.;Missouri
-31;Arthur M. Feildberg Galleries;1220 Heather Lane;Oregon
-32;Cotton Thumb Ltd.;1882 St. Johns;Illinois
-33;Childress Child Day Care;1912 Old Briar Lane #2;Michigan
-34;Foy Aviation;511 Hill;Maryland
-35;Nyman Interior Design;2505 Allison ct.;Washington
-36;Got It All Electronics Supply;629 Kincaid Ave.;Michigan
-37;PGS Associates;726 White Oaks Ave.;Montana
-38;Yale Remins Temp Agency;1912 Old Briar Lane #2;Wisconsin
-39;Mergenthaler Inc.;673 Calais Drive;Vermont
-40;Elm Place Business Supplies;505 N. Frances St.;Kansas
-41;Parties Galore Golf Course;77 Blackhawk Rd;Montana
-42;Glenn Oaks Office Supplies;2600 Winsor Mall;Pennsylvania
-43;Metro Appliance Service;2936 Arlington Ave.;New Jersey
-44;Parkway Auto Body;726 White Oaks Ave.;Indiana
-45;Quad City Cleaning;218 Oakridge Ave.;West Virginia
-46;Hi-Land Art & Frame;3478 Bryn Mawr St.;Idaho
-47;Brand Y Creative Services;14836 W. River Oaks Dr.;Ohio
-48;George Lee Antiques;632 Roger Williams;Virginia
-49;Johnson, Erico & Co CPA's;5518 Madison St.;Kentucky
-50;Trapezoid Studios;1831 Beverly Place #9D;Iowa
-51;American Deli Workers Union;618 Sheriden rd.;Arkansas
-52;Schmidt Denists;844 Spruce St.;Washington
-53;Crossroads Construction, Inc.;2267 Anderson Lane;California
-54;Jay's Cabinet Company;2024 St.Johns Ave.;West Virginia
-55;Highland Heights Gift Shop;1799 Rosemary Way;Nevada
-56;Glenn Oaks Office Supplies;1859 Green Bay Rd.;Connecticut
-57;Lee Stairworks and Carpentry,;2644 Princeton Ln.;South Dakota
-58;Lambert & Locke Legal Services;662 Lyons Circle;Vermont
-59;Nitelites Party Rental;12 Walker Ave.;Oregon
-60;Vanity Town;1701 W. Mellody Rd.;New York
-61;DBN Bank;456 Grossman Ln.;Ohio
-62;BBQ Smith's Tex Mex;1101 Deerfield Place;Florida
-63;Pivot Point College;1547 Knolwood Rd.;Florida
-64;Highland Woods City Hall;430 Oakland Drive;Florida
-65;Mail Boxes Et. Al.;1859 Green Bay Rd.;New Jersey
-66;Smith & Wesson Militia;1750 Lily Court;Nebraska
-67;Acturial Enterprises Ltd.;1486 Oakwood;New York
-68;Resnick DDS;726 White Oaks Ave.;Colorado
-69;Air Mexico;313 Grove Ave.;Colorado
-70;janice Mann Accounting Service;3181 Barkwood Ct.;Nevada
-71;Pete's Auto Repair;1436 Waverly Rd.;New York
-72;Michael Montgomery Hair Saloon;1077 Court Ave.;Florida
-73;Gordon & Son Brockerage Ltd.;313 Grove Ave.;Wisconsin
-74;Bee Line Publishing;3344 Beachwood Ln.;Virginia
-75;Green Bay Travel Services;1795 Lake Cook Rd.;Nevada
-76;Caranisco Homes;310 Walker Ave.;Rhode Island
-77;Doll House Rock;844 Spruce St.;Wisconsin
-78;Moveit Motercycle Service;965 Marion Place Apt. 65C;Illinois
-79;Funnyface Amusement Games;511 Hill;Idaho
 80;Glenwood Credit Union;2870 Skokie Rd.;Massachusetts
 81;Glassman & Stone;654 Walnut Rd.;Maine
 82;Yale Remins Temp Agency;628 Orwenstensia;Mississippi
@@ -139,11 +60,9 @@ id;CustomerName;CustomerAddress;State
 138;Vanity Town;302-A Crestwood Village Rd.;Connecticut
 139;Morton Roofing and Siding;1658 Second St.;North Carolina
 140;Caranisco Homes;3344 Beachwood Ln.;Iowa
-141;DBN Bank;2600 Winsor Mall;Maryland
 142;Hart Corporation;1658 Second St.;Georgia
 143;Nel Video Productions;1715 Chicago Ave.;Maryland
 144;Maintence Services of Maine;1658 Second St.;Ohio
-145;Woodworks Co.;445 Park Ave.;Hawaii
 146;Glenn Oaks Office Supplies;746 Judson Place;Colorado
 147;Funnyface Amusement Games;2220 Grant Blvd.;Connecticut
 148;Highland Lanes;224  Highwood Ave.;Ohio
@@ -195,7 +114,6 @@ id;CustomerName;CustomerAddress;State
 194;Morton Roofing and Siding;1912 Old Briar Lane #2;Connecticut
 195;Schnitzer Denist College;628 Orwenstensia;New Jersey
 196;Morgan Construction Co;4259 W. Lake Ave.;Minnesota
-197;Air Barbados;42 Valley Rd.;Oregon
 198;Bee Line Publishing;671 Blackstone Ave.;Connecticut
 199;Transformation Enterprises;669 Kikaid;Delaware
 200;Cradle the Call;550 Sheridan;New Jersey
@@ -222,7 +140,6 @@ id;CustomerName;CustomerAddress;State
 221;Smith Communications Inc.;1535 Knollwood Drive;South Dakota
 222;Office Pro Supply Co.;872 Virginia Rd.;West Virginia
 223;Eva Galler Galleries Inc.;2505 Allison ct.;Arizona
-224;AA Advertising;35 Glenlake Dr.;Illinois
 225;Dependable Plumbing and Sewer;1920 Sunnyside Ave.;Ohio
 226;Mail Boxes Et. Al.;965 Marion Place Apt. 65C;North Carolina
 227;Mergenthaler Inc.;1575 Oak Ave.  Apt. 2C;New Hampshire
@@ -236,13 +153,11 @@ id;CustomerName;CustomerAddress;State
 235;Smith Communications Inc.;3062 Lindenwood Ln.;Colorado
 236;Park District Of America;1859 Green Bay Rd.;Oklahoma
 237;New Dehli Auto Exchange;1535 Knollwood Drive;Louisiana
-238;Innman Paint and Glass;643 De Temple Rd.;Michigan
 239;John G. Hartling Ltd.;600 Central Ave.;Iowa
 240;Dean Grant Buick and Crysler;1482 Concorde Circle;Utah
 241;American Deli Workers Union;965 Marion Place Apt. 65C;Louisiana
 242;Loyal Order of Buffalo;1019 Deerfield Rd.;New Hampshire
 243;Car Suite Cleaners;1235 Easton Rd.;West Virginia
-244;Foy Aviation;1715 Chicago Ave.;Mississippi
 245;Kapp Camera and Video;511 Hill;Kansas
 246;Lee Stairworks and Carpentry,;42 Valley Rd.;Iowa
 247;Lake Shore Publishing;115 Judson Rd.;Rhode Island
@@ -284,7 +199,6 @@ id;CustomerName;CustomerAddress;State
 283;American Deli Workers Union;1858 Balsam Way;Virginia
 284;Doerner's Awnings and Canopies;671 Blackstone Ave.;New York
 285;Maintence Services of Maine;2479 Woodridge Drive;Massachusetts
-1425;Vecot Inc.;35 Glenlake Dr.;Virginia
 286;Park District Of America;1245 Eastwood;North Carolina
 287;Brand Y Creative Services;1704 Ridgelee Rd;Kansas
 288;Chicagoland Cleaners;3478 Bryn Mawr St.;Kansas
@@ -311,7 +225,6 @@ id;CustomerName;CustomerAddress;State
 309;Mail Boxes Et. Al.;266 Green Bay Rd.;Texas
 310;Caranisco Homes;1912 Old Briar Lane #2;New Hampshire
 311;Air Mexico;1486 Old Deerfield Rd.;South Dakota
-312;Chands CPA;3478 Bryn Mawr St.;Kentucky
 313;AA Advertising;245 Oakridge Ave.;Connecticut
 314;Nirabi Auto Service;1245 Eastwood;California
 315;Pac Builders;1065 Hillcrest Circle;Oklahoma
@@ -345,7 +258,6 @@ id;CustomerName;CustomerAddress;State
 343;Mail Boxes Et. Al.;3344 Beachwood Ln.;North Carolina
 344;North Shore Appliance Service;1444 Chantilly Ln.;Massachusetts
 345;Lee Stairworks and Carpentry,;511 Maple Ave.  Apt. 1B;Ohio
-346;Froggy's Gourmet Catering;2024 St.Johns Ave.;New York
 347;Nitelites Party Rental;425 Lake Ave.;Alabama
 348;Dapper's Antiques;175 beech St.;Maine
 349;Nina's Snow Plowing;12 Fort Sheriden Ave.;Wisconsin
@@ -416,7 +328,6 @@ id;CustomerName;CustomerAddress;State
 414;Darcy Frame and Matting Servic;505 N. Frances St.;Kansas
 415;Palmer Golf Supplies;241 Callan Rd.;Montana
 416;Schnitzer Denist College;2632 Prarie Ln.;New Mexico
-417;Cotton Thumb Ltd.;618 Sheriden rd.;Nebraska
 418;Highland Lanes;669 Kikaid;Utah
 419;Deer Lake Inn;511 Hill;Pennsylvania
 420;Flinn Mosquito and Pest Contro;2922 Twin Oaks Drive;Nebraska
@@ -424,7 +335,6 @@ id;CustomerName;CustomerAddress;State
 422;AAA Daniels Antiques;1839 McCraren Rd.;Maine
 423;Chands CPA;2678 Sheridan Rd.;Tennessee
 424;BBQ Smith's Tex Mex;225 Jeffrys Place;Arizona
-425;Lee Stairworks and Carpentry,;425 Lake Ave.;Colorado
 426;Acturial Enterprises Ltd.;1949 Cloverdale Rd.;Oklahoma
 427;Toggle & Myerson Ltd;550 Sheridan;Wyoming
 428;Crossroads Construction, Inc.;581 Hill St. Apt. 234;Washington
@@ -468,6 +378,7 @@ id;CustomerName;CustomerAddress;State
 466;Salt & Pepper Catering Service;4467 Sheridan Rd.;Wyoming
 467;Froggy's Gourmet Catering;512 Hill;South Carolina
 468;Chicagoland Cleaners;1234 Devonshire Court;New Jersey
+417;Cotton Thumb Ltd.;618 Sheriden rd.;Nebraska
 469;Brand Y Creative Services;854 Woodbine;Nevada
 470;Bill's Dive Shop;628 Orwenstensia;Nevada
 471;Doerner's Awnings and Canopies;1839 McCraren Rd.;Oklahoma
@@ -561,7 +472,6 @@ id;CustomerName;CustomerAddress;State
 559;Acturial Enterprises Ltd.;1535 Knollwood Drive;Virginia
 560;Crossroads Construction, Inc.;854 Woodbine;Arizona
 561;Arthur M. Feildberg Galleries;45 South Deer Creek Drive;Arizona
-562;Lake Shore Beaches;42 Valley Rd.;Wisconsin
 563;John G. Hartling Ltd.;600 Central Ave;Texas
 564;Elle Hypnosis and Therapy Cent;1185 County line Rd.;New Jersey
 565;Pivot Point College;1860 Parkside Ln.;Washington
@@ -583,7 +493,6 @@ id;CustomerName;CustomerAddress;State
 581;Hilco Auto Body;1660 Park Ave.;Nebraska
 582;Mac Computer Warehouse;969 Saxony Drive;Arizona
 583;Doerner's Awnings and Canopies;2632 Prarie Ln.;Montana
-584;Lake Shore Beaches;854 Woodbine;Rhode Island
 585;Vanity Town;1912 Old Briar Lane #2;Massachusetts
 586;Glassman & Stone;1444 Chantilly Ln.;Mississippi
 587;Doll House Rock;4763 Blackhawk Rd.;Alaska
@@ -616,7 +525,6 @@ id;CustomerName;CustomerAddress;State
 614;Woodworks Co.;1547 Knolwood Rd.;Arkansas
 615;Elm Place Business Supplies;115 Pleasent Ave.;New Hampshire
 616;Air France;1101 Deerfield Place;Utah
-617;Air India;368 Woodland Rd.;Oklahoma
 618;Cradle the Call;5518 Madison St.;Ohio
 619;Terrinni & Son Auto and Truck;1009 marvel Way;Delaware
 620;Park District Of America;355 Golf Rd.;Colorado
@@ -642,7 +550,6 @@ id;CustomerName;CustomerAddress;State
 640;Nina's Snow Plowing;2644 Princeton Ln.;Delaware
 641;AAA Daniels Antiques;750 Homewood Ave.;Texas
 642;Arthur M. Feildberg Galleries;614 green bay Rd.;Montana
-643;Air France;425 Lake Ave.;Tennessee
 644;Percy Photography;242 Ashland Ave.;Oklahoma
 645;Air Indonesia;618 Sheriden rd.;Wisconsin
 646;Car Suite Cleaners;1619 Judson Ave. Apt #34B;Colorado
@@ -818,9 +725,7 @@ id;CustomerName;CustomerAddress;State
 816;Smith Communications Inc.;310 Walker Ave.;Montana
 817;Acme Chemical Supply;1547 Knolwood Rd.;Louisiana
 818;Highland Woods City Hall;917 Fairview Ave.  Apt. 982;Minnesota
-819;Mail Boxes Et. Al.;1155 Ridgewood Drive;Arizona
 820;Toggle & Myerson Ltd;3148 cottonwood Ct.;New York
-821;Quad City Cleaning;5518 Madison St.;Montana
 822;Funnyface Amusement Games;22 Clay rd.;Minnesota
 823;Nel Video Productions;839 Burton Ave;Delaware
 824;Woodworks Co.;628 Orwenstensia;North Carolina
@@ -851,6 +756,7 @@ id;CustomerName;CustomerAddress;State
 849;Acturial Enterprises Ltd.;512 Hill;Mississippi
 850;Highland Lanes;1287 Glencoe Ave.;Texas
 851;Vecot Inc.;1077 Court Ave.;Texas
+819;Mail Boxes Et. Al.;1155 Ridgewood Drive;Arizona
 852;Percy Photography;231 Sheriden Rd.;Utah
 853;Gordon & Son Brockerage Ltd.;5518 Madison St.;New York
 854;Glenwood Credit Union;218 Oakridge Ave.;Oklahoma
@@ -888,7 +794,6 @@ id;CustomerName;CustomerAddress;State
 886;Masterlands Cleaning;3062 Lindenwood Ln.;Utah
 887;Pac Builders;425 Lake Ave.;Oklahoma
 888;Crosstracks Car Wash;302-A Crestwood Village Rd.;Pennsylvania
-889;Doll House Rock;788 Tennyson Ave.;Utah
 890;Corbins, Rodriguez, & Savocchi;632 Florence Dr.;Hawaii
 891;DBN Bank;1920 Sunnyside Ave.;Alabama
 892;Funnyface Amusement Games;201-C Frontage Rd.;Colorado
@@ -916,12 +821,10 @@ id;CustomerName;CustomerAddress;State
 914;Myers Chocolates and Confectio;12 Fort Sheriden Ave.;New York
 915;BBQ Smith's Tex Mex;3181 Barkwood Ct.;West Virginia
 916;Elm Place Business Supplies;2632 Prarie Ln.;Virginia
-917;Air Indonesia;857 Woodbine Rd;Missouri
 918;Woodworks Co.;12 Craven Way;Minnesota
 919;Myers Chocolates and Confectio;899 Harvard Ct;Mississippi
 920;Michael Montgomery Hair Saloon;726 White Oaks Ave.;Pennsylvania
 921;Funnyface Amusement Games;746 Judson Place;Indiana
-922;Hart Corporation;854 Woodbine;Idaho
 923;Esmarda Chemical Manufacturers;1101 Deerfield Place;Nebraska
 924;Dapper's Antiques;367Bluebird Terr.;Connecticut
 925;Griffith Paving and Sealcoatin;1126 Hillcrest Ave;Georgia
@@ -945,6 +848,7 @@ id;CustomerName;CustomerAddress;State
 943;Nitelites Party Rental;511 Hill;Illinois
 944;Mac Computer Warehouse;1912 Old Briar Lane #2;Mississippi
 945;Crossroads Construction, Inc.;2644 Princeton Ln.;Louisiana
+889;Doll House Rock;788 Tennyson Ave.;Utah
 946;Masterlands Cleaning;115 Judson Rd.;Iowa
 947;Myers Chocolates and Confectio;812 North Ave.;Missouri
 948;Kermit the Pet Shop;872 Virginia Rd.;Texas
@@ -1007,7 +911,6 @@ id;CustomerName;CustomerAddress;State
 1005;Palmer Golf Supplies;244 Briar Ln;Alaska
 1006;Highland Woods City Hall;59 Cordon Terr.;Massachusetts
 1007;Smith & Wesson Militia;54 Lakeview Terrace;Illinois
-1008;New Dehli Auto Exchange;1770 first St.;Oklahoma
 1009;Lennox Air Pollution Control;1658 Second St.;Illinois
 1010;Nirabi Auto Service;1287 Glencoe Ave.;Michigan
 1011;Park District Of America;1750 Lily Court;Mississippi
@@ -1040,6 +943,7 @@ id;CustomerName;CustomerAddress;State
 1038;Acturial Enterprises Ltd.;22 Clay rd.;Alaska
 1039;Arthur M. Feildberg Galleries;1860 Parkside Ln.;Kansas
 1040;Hart Corporation;1770 first St.;Colorado
+1008;New Dehli Auto Exchange;1770 first St.;Oklahoma
 1041;Schnitzer Denist College;2644 Princeton Ln.;South Dakota
 1042;Marcy Elaine Bakery;12 Craven Way;Maryland
 1043;MedicServe Medical Supply;1679 McCraren;South Carolina
@@ -1084,7 +988,6 @@ id;CustomerName;CustomerAddress;State
 1082;Hilco Auto Body;2936 Arlington Ave.;California
 1083;Hi-Land Art & Frame;21 Lakeview Terrace #2312;Alabama
 1084;MedicServe Medical Supply;662 Lyons Circle;North Carolina
-1085;Camp Oconomowoc;1337 Cavell Ave.;Wyoming
 1086;Car Suite Cleaners;139 Bay Colony Dr.;Indiana
 1087;Quad City Cleaning;10 Marquette Rd.;Florida
 1088;Childress Child Day Care;2936 Arlington Ave.;Oregon
@@ -1102,7 +1005,6 @@ id;CustomerName;CustomerAddress;State
 1100;Green Bay Travel Services;1482 Concorde Circle;Oregon
 1101;Yale Remins Temp Agency;135 Lakewood place;Delaware
 1102;Dean Grant Buick and Crysler;1658 Second St.;Virginia
-1103;Pivot Point College;1920 Sunnyside Ave.;Louisiana
 1104;Hoffman Printing Center;43078 Kennedy Dr.;Alabama
 1105;Glenn Oaks Office Supplies;1245 Eastwood;Indiana
 1106;Lickmen Restoration;839 Burton Ave;Massachusetts
@@ -1134,6 +1036,7 @@ id;CustomerName;CustomerAddress;State
 1132;Michael Montgomery Hair Saloon;334 Lynn Terrace;North Carolina
 1133;Parties Galore Golf Course;2032 Northbrook Ct.;South Dakota
 1134;Air Mexico;600 Central Ave.;Nevada
+1103;Pivot Point College;1920 Sunnyside Ave.;Louisiana
 1135;Parties Galore Golf Course;1752 Clinton Ave.;California
 1136;Marcy Elaine Bakery;886 Yale Lane;Nebraska
 1137;Acturial Enterprises Ltd.;929 Brittany Ave.;New Mexico
@@ -1194,10 +1097,8 @@ id;CustomerName;CustomerAddress;State
 1192;Dapper's Antiques;1679 McCraren;Nevada
 1193;John G. Hartling Ltd.;3181 Barkwood Ct.;West Virginia
 1194;Hardee Woodwork Ltd.;899 Harvard Ct;South Carolina
-1195;Camp Oconomowoc;3478 Bryn Mawr St.;Nevada
 1196;Marcy Elaine Bakery;220 Vine Ave.;West Virginia
 1197;Hibbard Road Suppliers;1858 Balsam Way;Nebraska
-1198;Air Indonesia;245 Oakridge Ave.;Delaware
 1199;Green Bay Travel Services;865 Old Tall Tree Lane;Pennsylvania
 1200;Johnson, Erico & Co CPA's;1235 Easton Rd.;West Virginia
 1201;Caranisco Homes;45 South Deer Creek Drive;California
@@ -1231,6 +1132,7 @@ id;CustomerName;CustomerAddress;State
 1229;Glenwood Credit Union;465 Stratford Rd.;Tennessee
 1230;Corbins, Rodriguez, & Savocchi;1770 first St.;Delaware
 1231;Metro Appliance Service;917 Fairview Ave.  Apt. 982;Ohio
+1198;Air Indonesia;245 Oakridge Ave.;Delaware
 1232;Masterlands Cleaning;42 Valley Rd.;Louisiana
 1233;Johnson, Erico & Co CPA's;456 Grossman Ln.;South Dakota
 1234;Dean Barnett Furniture Repair;445 Park Ave.;Maryland
@@ -1267,7 +1169,6 @@ id;CustomerName;CustomerAddress;State
 1265;Park District Of America;2224 Sherman Rd.;Georgia
 1266;Corbins, Rodriguez, & Savocchi;574 Chicago Ave.;Pennsylvania
 1267;Energy Source Diet Centers;3100 Trailer Way;Alabama
-1268;DBN Bank;445 Park Ave.;Mississippi
 1269;Schmidt Denists;1009 marvel Way;California
 1270;Marcy Elaine Bakery;4467 Sheridan Rd.;Illinois
 1271;Pasifico Inc.;1575 Oakwood Ave.;Idaho
@@ -1325,6 +1226,7 @@ id;CustomerName;CustomerAddress;State
 1323;Glassman & Stone;852 Sumac Rd.;Vermont
 1324;North Shore Appliance Service;445 Park Ave.;Florida
 1325;Darcy Frame and Matting Servic;969 Saxony Drive;Indiana
+54;Jay's Cabinet Company;2024 St.Johns Ave.;West Virginia
 1326;George Lee Antiques;12 Broadview Lane;Florida
 1327;New Dehli Auto Exchange;865 Old Tall Tree Lane;New Hampshire
 1328;Lambert & Locke Legal Services;929 Brittany Ave.;West Virginia
@@ -1334,7 +1236,6 @@ id;CustomerName;CustomerAddress;State
 1332;American Apartments;1550 Ridge Rd.;New Mexico
 1333;Office Pro Supply Co.;3148 cottonwood Ct.;Utah
 1334;Elle Hypnosis and Therapy Cent;406 Trinity Ct.;Maine
-1335;Rythmics Ltd.;1750 Lily Court;Hawaii
 1336;Keyth Contracting and Repair;1220 Heather Lane;Pennsylvania
 1337;Maintence Services of Maine;632 Roger Williams;Massachusetts
 1338;Camp Oconomowoc;632 Roger Williams;Texas
@@ -1395,7 +1296,6 @@ id;CustomerName;CustomerAddress;State
 1393;Got It All Electronics Supply;4467 Sheridan Rd.;Florida
 1394;Hibbard Road Suppliers;1831 Beverly Place #9D;West Virginia
 1395;Lake Shore Beaches;1915 Lewis Ln.  Apt 13;Wisconsin
-1396;Libra & Sons;225 Jeffrys Place;Iowa
 1397;Schnitzer Denist College;3901 Chester Ave. Apt. 3C;Maryland
 1398;Car Suite Cleaners;4259 W. Lake Ave.;Arkansas
 1399;Jay's Cabinet Company;839 Burton Ave;Maryland
@@ -1418,12 +1318,14 @@ id;CustomerName;CustomerAddress;State
 1416;Loyal Order of Buffalo;673 Calais Drive;New Mexico
 1417;Masterlands Cleaning;1859 Green Bay Rd.;Virginia
 1418;Schnitzer Denist College;1575 Oakwood Ave.;Idaho
+1396;Libra & Sons;225 Jeffrys Place;Iowa
 1419;Portugal, Liddy, & Son Ltd.;1185 County line Rd.;Connecticut
 1420;Johnson, Erico & Co CPA's;628 Orwenstensia;Pennsylvania
 1421;K L Consulting;1954 First St.;New Jersey
 1422;Lickmen Restoration;1019 Deerfield Rd.;Alaska
 1423;Maintence Services of Maine;812 North Ave.;South Dakota
 1424;Lickmen Restoration;643 De Temple Rd.;Colorado
+1425;Vecot Inc.;35 Glenlake Dr.;Virginia
 1426;Nel Video Productions;1287 Glencoe Ave.;Georgia
 1427;Nel Video Productions;1915 Lewis Ln.  Apt 13;Massachusetts
 1428;Office Pro Supply Co.;618 Sheriden rd.;Oklahoma
@@ -1464,7 +1366,6 @@ id;CustomerName;CustomerAddress;State
 1463;Lidhal design Corp.;1954 First St.;Iowa
 1464;MedicServe Medical Supply;4763 Blackhawk Rd.;Delaware
 1465;Highland Lanes;3344 Beachwood Ln.;Nebraska
-1466;Camp Stuff;1547 Knolwood Rd.;Oklahoma
 1467;AAA Daniels Antiques;886 Yale Lane;South Carolina
 1468;Mergenthaler Inc.;241 Callan Rd.;Alaska
 1469;Nitelites Party Rental;574 Chicago Ave.;Minnesota
@@ -1512,6 +1413,8 @@ id;CustomerName;CustomerAddress;State
 1511;Quad City Cleaning;1660 Park Ave.;South Dakota
 1512;Bee Line Publishing;4522 N. Greenview Apt. 1B;New Jersey
 1513;Highland Woods City Hall;1575 Oak Ave.  Apt. 2C;Minnesota
+55;Highland Heights Gift Shop;1799 Rosemary Way;Nevada
+56;Glenn Oaks Office Supplies;1859 Green Bay Rd.;Connecticut
 1514;Brand Y Creative Services;1770 first St.;Nebraska
 1515;American Apartments;1450 Harding Ave.;Virginia
 1516;Perimeter Security Consultants;1839 McCraren Rd.;Michigan
@@ -1525,7 +1428,6 @@ id;CustomerName;CustomerAddress;State
 1524;North West Gas Co.;12 Broadview Lane;Illinois
 1525;Air France;3385 University Ave.;Maine
 1526;Parkway Auto Body;1957 Huntington Ave.;North Carolina
-1527;Air France;242 Ashland Ave.;Kentucky
 1528;Trapezoid Studios;2112 Ravine Drive;Oregon
 1529;Doll House Rock;2032 Northbrook Ct.;California
 1530;Air Indonesia;965 Marion Place Apt. 65C;Vermont
@@ -1560,7 +1462,6 @@ id;CustomerName;CustomerAddress;State
 1559;Woodworks Co.;2936 Arlington Ave.;Washington
 1560;Johnson, Erico & Co CPA's;2870 Skokie Rd.;New Jersey
 1561;Ampro Office Team Ltd.;1795 Lake Cook Rd.;Texas
-1562;AA Advertising;2510 Crain;Idaho
 1563;Moveit Motercycle Service;1245 Eastwood;Pennsylvania
 1564;Gilbert Co.;872 Virginia Rd.;Vermont
 1565;Vecot Inc.;1287 Glencoe Ave.;Connecticut
@@ -1609,7 +1510,6 @@ id;CustomerName;CustomerAddress;State
 1608;Keep Cool Air Conditioner Repa;1436 Waverly Rd.;Texas
 1609;Lee Stairworks and Carpentry,;1009 marvel Way;Colorado
 1610;Acturial Enterprises Ltd.;10 Marquette Rd.;Iowa
-1611;Bill's Dive Shop;512 Hill;Minnesota
 1612;Schmidt Denists;671 Blackstone Ave.;Nebraska
 1613;Terrinni & Son Auto and Truck;1065 Hillcrest Circle;Arizona
 1614;Lutz Soft Cloth Car Wash;3478 Bryn Mawr St.;Indiana
@@ -1661,7 +1561,6 @@ id;CustomerName;CustomerAddress;State
 1660;Palmer Golf Supplies;854 Woodbine;North Carolina
 1661;Innman Paint and Glass;654 Walnut Rd.;Pennsylvania
 1662;Kosmo Consulting;1235 Easton Rd.;Vermont
-1663;Vecot Inc.;2220 Grant Blvd.;Ohio
 1664;Highland Lanes;245 Oakridge Ave.;Texas
 1665;Pete's Auto Repair;1337 Cavell Ave.;Missouri
 1666;Eva Galler Galleries Inc.;1444 Chantilly Ln.;Oklahoma
@@ -1745,7 +1644,6 @@ id;CustomerName;CustomerAddress;State
 1744;Schnitzer Denist College;368 Woodland Rd.;Kentucky
 1745;New Dehli Auto Exchange;3478 Bryn Mawr St.;Louisiana
 1746;Woodworks Co.;1450 Harding Ave.;New York
-1747;Morton Roofing and Siding;12 Craven Way;Utah
 1748;Funnyface Amusement Games;505 N. Frances St.;Tennessee
 1749;janice Mann Accounting Service;1858 Balsam Way;Delaware
 1750;Dependable Plumbing and Sewer;618 Sheriden rd.;Virginia
@@ -1757,7 +1655,6 @@ id;CustomerName;CustomerAddress;State
 1756;Pete's Auto Repair;2224 Sherman Rd.;Kansas
 1757;Metro Appliance Service;12 Broadview Lane;Indiana
 1758;Hart Corporation;1859 Green Bay Rd.;Iowa
-1759;Tub's Furniture Store;245 Oakridge Ave.;Virginia
 1760;Lake Shore Beaches;244 Briar Ln;Indiana
 1761;Office Pro Supply Co.;42 Valley Rd.;North Dakota
 1762;Air Mexico;35 Glenlake Dr.;Arizona
@@ -1799,6 +1696,7 @@ id;CustomerName;CustomerAddress;State
 1798;Got It All Electronics Supply;1658 Second St.;Texas
 1799;Air Barbados;505 N. Frances St.;Massachusetts
 1800;Dependable Plumbing and Sewer;1019 Deerfield Rd.;Iowa
+1335;Rythmics Ltd.;1750 Lily Court;Hawaii
 1801;Toggle & Myerson Ltd;1547 Knolwood Rd.;Missouri
 1802;Percy Photography;1859 Green Bay Rd.;Vermont
 1803;Morgan Construction Co;1858 Balsam Way;Hawaii
@@ -1854,21 +1752,18 @@ id;CustomerName;CustomerAddress;State
 1853;Myles Building Consultants;4522 N. Greenview Apt. 1B;Hawaii
 1854;Hibop Heating and Air Conditio;1750 Lily Court;North Dakota
 1855;American Deli Workers Union;201-C Frontage Rd.;Mississippi
-1856;Rythmics Ltd.;511 Hill;Wyoming
 1857;Myles Building Consultants;2644 Princeton Ln.;West Virginia
 1858;Highland Lanes;12 Broadview Lane;Connecticut
 1859;Dapper's Antiques;1482 Concorde Circle;California
 1860;Bee Line Publishing;1907 S. Prospect Ave.;Minnesota
 1861;Camp Stuff;1714 Clifton Rd.;Florida
 1862;Cotton Thumb Ltd.;42 Valley Rd.;Utah
-1863;BBQ Smith's Tex Mex;839 Burton Ave;Alabama
 1864;Facelift Kitchen and Bath;886 Yale Lane;Virginia
 1865;Darcy Frame and Matting Servic;654 Walnut Rd.;Oklahoma
 1866;Perimeter Security Consultants;54 Lakeview Terrace;Minnesota
 1867;Highland Lanes;14836 W. River Oaks Dr.;Montana
 1868;Highland Heights Gift Shop;1126 Hillcrest Ave;Massachusetts
 1869;Michael Montgomery Hair Saloon;1450 Harding Ave.;New Hampshire
-1870;Bernhardt Ltd.;445 Park Ave.;Delaware
 1871;Corbins, Rodriguez, & Savocchi;1679 McCraren;Maryland
 1872;Hoffman Printing Center;231 Sheriden Rd.;South Carolina
 1873;Hart Corporation;1907 S. Prospect Ave.;North Carolina
@@ -1885,7 +1780,6 @@ id;CustomerName;CustomerAddress;State
 1884;Bee Line Publishing;3901 Chester Ave. Apt. 3C;Wyoming
 1885;DBN Bank;969 Saxony Drive;Arkansas
 1886;Kosmo Consulting;1547 Vine;Arizona
-1887;Bill's Dive Shop;1486 Oakwood;Illinois
 1888;Pasifico Inc.;14836 W. River Oaks Dr.;Iowa
 1889;Glenn Oaks Office Supplies;2479 Woodridge Drive;Wisconsin
 1890;Air Indonesia;1444 Chantilly Ln.;Missouri
@@ -1956,7 +1850,6 @@ id;CustomerName;CustomerAddress;State
 1955;Mail Boxes Et. Al.;1839 McCraren Rd.;California
 1956;North Park Lighting Galleries;1752 Clinton Ave.;Arkansas
 1957;Lambert & Locke Legal Services;1482 Concorde Circle;Colorado
-1958;Cotton Thumb Ltd.;218 Oakridge Ave.;Florida
 1959;Hi-Land Art & Frame;3487 Green Bay Rd.;Georgia
 1960;Bernhardt Ltd.;600 Central Ave;Idaho
 1961;Mac Computer Warehouse;12 Craven Way;New Hampshire
@@ -2059,7 +1952,6 @@ id;CustomerName;CustomerAddress;State
 2058;Trapezoid Studios;12 Skokie Valley Rd.;Mississippi
 2059;George Lee Antiques;2870 Skokie Rd.;Utah
 2060;AA Advertising;618 Sheriden rd.;Washington
-2061;Vanity Town;852 Sumac Rd.;Delaware
 2062;Nel Video Productions;872 Virginia Rd.;Texas
 2063;Mac Computer Warehouse;3487 Green Bay Rd.;Tennessee
 2064;Palmer Golf Supplies;965 Marion Place Apt. 65C;Hawaii
@@ -2090,6 +1982,7 @@ id;CustomerName;CustomerAddress;State
 2089;Facelift Kitchen and Bath;3148 cottonwood Ct.;Rhode Island
 2090;Caranisco Homes;618 Sheriden rd.;New Hampshire
 2091;American Deli Workers Union;1535 Knollwood Drive;Missouri
+2061;Vanity Town;852 Sumac Rd.;Delaware
 2092;Auto Interior Carpeting Compan;224  Highwood Ave.;Massachusetts
 2093;American Apartments;1839 McCraren Rd.;New Mexico
 2094;Acme Chemical Supply;355 Golf Rd.;Nevada
@@ -2227,7 +2120,6 @@ id;CustomerName;CustomerAddress;State
 2226;American Apartments;865 Old Tall Tree Lane;Maine
 2227;Acturial Enterprises Ltd.;231 Sheriden Rd.;Maryland
 2228;Facelift Kitchen and Bath;1859 Green Bay Rd.;Rhode Island
-2229;Percy Photography;1858 Balsam Way;Nevada
 2230;Highland Woods City Hall;12 Walker Ave.;Texas
 2231;Trapezoid Studios;844 Spruce St.;New York
 2232;John G. Hartling Ltd.;310 Walker Ave.;Kentucky
@@ -2244,12 +2136,10 @@ id;CustomerName;CustomerAddress;State
 2243;Darcy Frame and Matting Servic;511 Maple Ave.  Apt. 1B;Tennessee
 2244;Glassman & Stone;511 Maple Ave.  Apt. 1B;North Dakota
 2245;Palmer Golf Supplies;43078 Kennedy Dr.;Oregon
-2246;Marcy Elaine Bakery;2870 Skokie Rd.;Alabama
 2247;Derbin Contracting Services;3385 University Ave.;Texas
 2248;Car Suite Cleaners;1949 Cloverdale Rd.;Ohio
 2249;American Apartments;1882 St. Johns;Hawaii
 2250;MedicServe Medical Supply;643 De Temple Rd.;Tennessee
-2251;Pasifico Inc.;505 N. Frances St.;Kentucky
 2252;Hilco Auto Body;1155 Ridgewood Drive;Utah
 2253;Bill's Dive Shop;512 Hill;Utah
 2254;Lee Stairworks and Carpentry,;1770 first St.;Alabama
@@ -2333,7 +2223,6 @@ id;CustomerName;CustomerAddress;State
 2332;Darcy Frame and Matting Servic;244 Briar Ln;Kansas
 2333;First National Bank of Ottowa;43078 Kennedy Dr.;Montana
 2334;Nel Video Productions;12 Broadview Lane;Alabama
-2335;Vanity Town;600 Central Ave.;Minnesota
 2336;Marks, Marks, and Kaplan Ltd.;1920 Sunnyside Ave.;West Virginia
 2337;Lennox Air Pollution Control;313 Grove Ave.;Connecticut
 2338;Percy Photography;1975 elmwood Circle;Iowa
@@ -2431,7 +2320,6 @@ id;CustomerName;CustomerAddress;State
 2430;Sigman and Freud Psychiatry;643 De Temple Rd.;Montana
 2431;Kermit the Pet Shop;2479 Woodridge Drive;Tennessee
 2432;Chicagoland Cleaners;1633 McGovern place;North Carolina
-2433;Bernhardt Ltd.;770 Exmoor Rd.;Texas
 2434;Jay's Cabinet Company;3160 Summit Ave.;Kentucky
 2435;Doll House Rock;671 Blackstone Ave.;Virginia
 2436;Parties Galore Golf Course;1101 Deerfield Place;Vermont
@@ -2541,7 +2429,6 @@ id;CustomerName;CustomerAddress;State
 2540;Ernie's Foriegn Car Service;1954 First St.;Ohio
 2541;Johnson, Erico & Co CPA's;4259 W. Lake Ave.;West Virginia
 2542;Salt & Pepper Catering Service;2510 Crain;California
-2543;Acme Chemical Supply;937 Judson Ave.;Alaska
 2544;DBN Bank;812 North Ave.;Iowa
 2545;Auto Interior Carpeting Compan;600 Central Ave.;Pennsylvania
 2546;Garfield Appliance Service;1233 Arbor Rd.;Delaware
@@ -2570,13 +2457,13 @@ id;CustomerName;CustomerAddress;State
 2569;Innman Paint and Glass;1704 Ridgelee Rd;Massachusetts
 2570;Nitelites Party Rental;1287 Glencoe Ave.;North Dakota
 2571;Keyth Contracting and Repair;872 Virginia Rd.;Oregon
+2543;Acme Chemical Supply;937 Judson Ave.;Alaska
 2572;Truck-X Muffler Repair;1915 Lewis Ln.  Apt 13;Arkansas
 2573;Flinn Mosquito and Pest Contro;1975 elmwood Circle;Virginia
 2574;Morton Roofing and Siding;2220 Grant Blvd.;Vermont
 2575;Childress Child Day Care;1155 Ridgewood Drive;Missouri
 2576;Dapper's Antiques;45 South Deer Creek Drive;New York
 2577;Flinn Mosquito and Pest Contro;1234 Devonshire Court;Massachusetts
-2578;AA Advertising;844 Spruce St.;Idaho
 2579;Parkway Auto Body;937 Judson Ave.;Florida
 2580;George Lee Antiques;788 Tennyson Ave.;Michigan
 2581;Salt & Pepper Catering Service;22 Clay rd.;California
@@ -2662,6 +2549,7 @@ id;CustomerName;CustomerAddress;State
 2661;Kapp Camera and Video;242 Ashland Ave.;Vermont
 2662;Elm Place Business Supplies;1619 Judson Ave. Apt #34B;North Carolina
 2663;Arthur M. Feildberg Galleries;10 Marquette Rd.;Utah
+1466;Camp Stuff;1547 Knolwood Rd.;Oklahoma
 2664;Lickmen Restoration;3148 cottonwood Ct.;South Carolina
 2665;Acme Chemical Supply;581 Hill St. Apt. 234;Pennsylvania
 2666;Facelift Kitchen and Bath;1752 Clinton Ave.;Alabama
@@ -2675,7 +2563,6 @@ id;CustomerName;CustomerAddress;State
 2674;Hibbard Road Suppliers;1715 Chicago Ave.;New Jersey
 2675;Parties Galore Golf Course;1619 Judson Ave. Apt #34B;Colorado
 2676;Office Pro Supply Co.;367Bluebird Terr.;South Dakota
-2677;Air France;1882 St. Johns;Wyoming
 2678;Pivot Point College;2032 Northbrook Ct.;Tennessee
 2679;Dean Grant Buick and Crysler;1912 Old Briar Lane #2;Michigan
 2680;Morgan Construction Co;746 Judson Place;Montana
@@ -2725,7 +2612,6 @@ id;CustomerName;CustomerAddress;State
 2724;Deer Lake Inn;969 Saxony Drive;Maryland
 2725;Highland Lanes;1714 Clifton Rd.;New Jersey
 2726;Marcy Elaine Bakery;2024 St.Johns Ave.;New Jersey
-2727;Trapezoid Studios;937 Judson Ave.;Maryland
 2728;Johnson, Erico & Co CPA's;1535 Knollwood Drive;Louisiana
 2729;Mac Computer Warehouse;175 beech St.;Vermont
 2730;Office Pro Supply Co.;1619 Judson Ave. Apt #34B;North Carolina
@@ -2756,6 +2642,8 @@ id;CustomerName;CustomerAddress;State
 2755;Marcy Elaine Bakery;1547 Vine;Maine
 2756;Mergenthaler Inc.;1858 Balsam Way;South Carolina
 2757;Hilco Auto Body;425 Lake Ave.;Washington
+57;Lee Stairworks and Carpentry,;2644 Princeton Ln.;South Dakota
+2727;Trapezoid Studios;937 Judson Ave.;Maryland
 2758;P K M Packaging Supply;600 Central Ave;Oklahoma
 2759;Bill's Dive Shop;917 Fairview Ave.  Apt. 982;Idaho
 2760;American Deli Workers Union;1550 Ridge Rd.;Georgia
@@ -2767,7 +2655,6 @@ id;CustomerName;CustomerAddress;State
 2766;Lake Shore Beaches;1920 Sunnyside Ave.;South Carolina
 2767;Michael Montgomery Hair Saloon;4763 Blackhawk Rd.;Georgia
 2768;PGS Associates;1185 County line Rd.;Virginia
-2769;Air France;512 Hill;Virginia
 2770;American Deli Workers Union;1337 Cavell Ave.;North Dakota
 2771;Pac Builders;1450 Harding Ave.;South Carolina
 2772;Peterson Roberts Carpentry;662 Lyons Circle;Georgia
@@ -2849,6 +2736,7 @@ id;CustomerName;CustomerAddress;State
 2848;Green Bay Travel Services;3160 Summit Ave.;Virginia
 2849;Hi-Land Art & Frame;937 Judson Ave.;Vermont
 2850;Air Guatamala;54 Lakeview Terrace;Arkansas
+58;Lambert & Locke Legal Services;662 Lyons Circle;Vermont
 2851;Morton Roofing and Siding;673 Calais Drive;Maine
 2852;Crosstracks Car Wash;22 Clay rd.;Ohio
 2853;Air India;643 De Temple Rd.;Arizona
@@ -2886,7 +2774,6 @@ id;CustomerName;CustomerAddress;State
 2885;P K M Packaging Supply;3181 Barkwood Ct.;Illinois
 2886;Keep Cool Air Conditioner Repa;22 Clay rd.;Oklahoma
 2887;Salt & Pepper Catering Service;313 Grove Ave.;California
-2888;Pac Builders;1575 Oakwood Ave.;South Carolina
 2889;Jay's Cabinet Company;632 Roger Williams;Michigan
 2890;Hilco Auto Body;2148 Eastview Dr.;Washington
 2891;Michael Montgomery Hair Saloon;4259 W. Lake Ave.;Iowa
@@ -2902,7 +2789,6 @@ id;CustomerName;CustomerAddress;State
 2901;Morgan Construction Co;313 Grove Ave.;Nevada
 2902;Nina's Snow Plowing;600 Central Ave.;West Virginia
 2903;Kosmo Consulting;1975 elmwood Circle;Virginia
-2904;Pac Builders;1907 S. Prospect Ave.;Idaho
 2905;Peterson Roberts Carpentry;1831 Beverly Place #9D;Montana
 2906;Shaggy's Grooming Services;600 Central Ave;North Dakota
 2907;Hilco Auto Body;231 Sheriden Rd.;Kentucky
@@ -2938,7 +2824,6 @@ id;CustomerName;CustomerAddress;State
 2937;Mergenthaler Inc.;673 Calais Drive;Montana
 2938;Funnyface Amusement Games;245 Oakridge Ave.;South Carolina
 2939;Nyman Interior Design;2148 Eastview Dr.;Tennessee
-2940;Chands CPA;1750 Lily Court;Arkansas
 2941;Tub's Furniture Store;1770 first St.;Montana
 2942;Air Indonesia;1486 Oakwood;Alabama
 2943;Perimeter Security Consultants;2032 Northbrook Ct.;Kansas
@@ -2946,6 +2831,7 @@ id;CustomerName;CustomerAddress;State
 2945;Childress Child Day Care;3062 Lindenwood Ln.;Kentucky
 2946;Lake Shore Publishing;242 Ashland Ave.;West Virginia
 2947;Portugal, Liddy, & Son Ltd.;1882 St. Johns;California
+2940;Chands CPA;1750 Lily Court;Arkansas
 2948;Schmidt Denists;135 Lakewood place;Nebraska
 2949;janice Mann Accounting Service;1535 Knollwood Drive;New Hampshire
 2950;Camp Oconomowoc;1486 Old Deerfield Rd.;Delaware
@@ -2991,7 +2877,6 @@ id;CustomerName;CustomerAddress;State
 2990;Maintence Services of Maine;220 Vine Ave.;Louisiana
 2991;Mail Boxes Et. Al.;2024 St.Johns Ave.;Indiana
 2992;Dapper's Antiques;1547 Vine;Iowa
-2993;Air Indonesia;3148 cottonwood Ct.;Georgia
 2994;Pac Builders;135 Lakewood place;Iowa
 2995;Marks, Marks, and Kaplan Ltd.;1831 Beverly Place #9D;West Virginia
 2996;Dean Grant Buick and Crysler;367Bluebird Terr.;Oregon
@@ -3029,7 +2914,6 @@ id;CustomerName;CustomerAddress;State
 3028;Nel Video Productions;1831 Beverly Place #9D;Rhode Island
 3029;Peterson Roberts Carpentry;77 Blackhawk Rd;Maryland
 3030;Ebert Music Center;1234 Devonshire Court;South Carolina
-3031;Air Indonesia;355 Golf Rd.;Oregon
 3032;Funnyface Amusement Games;445 Park Ave.;New Mexico
 3033;Doll House Rock;632 Florence Dr.;Pennsylvania
 3034;Bill's Dive Shop;643 De Temple Rd.;Mississippi
@@ -3287,7 +3171,6 @@ id;CustomerName;CustomerAddress;State
 3286;Highland Woods City Hall;770 Exmoor Rd.;Maryland
 3287;Michael Montgomery Hair Saloon;242 Ashland Ave.;Ohio
 3288;North Shore Appliance Service;3344 Beachwood Ln.;Utah
-3289;Innman Paint and Glass;1337 Cavell Ave.;Maryland
 3290;Glassman & Stone;3100 Trailer Way;Massachusetts
 3291;Air Indonesia;38976 Forest View Rd.;Arkansas
 3292;Corbins, Rodriguez, & Savocchi;139 Bay Colony Dr.;Ohio
@@ -3355,7 +3238,6 @@ id;CustomerName;CustomerAddress;State
 3354;Pac Builders;917 Fairview Ave.  Apt. 982;Connecticut
 3355;Kermit the Pet Shop;1957 Huntington Ave.;Pennsylvania
 3356;Nirabi Auto Service;1859 Green Bay Rd.;Wisconsin
-3357;Air India;22 Clay rd.;Wyoming
 3358;Car Suite Cleaners;2148 Eastview Dr.;Kansas
 3359;Innman Paint and Glass;1245 Eastwood;Mississippi
 3360;Myles Building Consultants;3150 Skokie Valley Rd.;New Hampshire
@@ -3395,7 +3277,6 @@ id;CustomerName;CustomerAddress;State
 3394;Innman Paint and Glass;12 Broadview Lane;South Carolina
 3395;Quad City Cleaning;12 Skokie Valley Rd.;Washington
 3396;Gourmet the Frog;2220 Grant Blvd.;New Mexico
-3397;Nel Video Productions;59 Cordon Terr.;Idaho
 3398;Glenn Oaks Office Supplies;1287 Glencoe Ave.;California
 3399;Mail Boxes Et. Al.;1882 St. Johns;Georgia
 3400;Air Guatamala;750 Homewood Ave.;Alabama
@@ -3426,6 +3307,7 @@ id;CustomerName;CustomerAddress;State
 3425;Childress Child Day Care;1 Twin Oaks Place;Maryland
 3426;Mergenthaler Inc.;812 North Ave.;Utah
 3427;Elm Place Business Supplies;917 Fairview Ave.  Apt. 982;Iowa
+3397;Nel Video Productions;59 Cordon Terr.;Idaho
 3428;Highland Lanes;1777 balsamic Ave.;Washington
 3429;Funnyface Amusement Games;1155 Ridgewood Drive;New Jersey
 3430;Kermit the Pet Shop;1220 Heather Lane;New Jersey
@@ -3489,7 +3371,6 @@ id;CustomerName;CustomerAddress;State
 3488;Percy Photography;139 Bay Colony Dr.;New Jersey
 3489;Green Bay Travel Services;1715 Chicago Ave.;Massachusetts
 3490;Hibbard Road Suppliers;1957 Huntington Ave.;West Virginia
-3491;K L Consulting;511 Hill;Arkansas
 3492;PGS Associates;1 Twin Oaks Place;Arizona
 3493;Caranisco Homes;865 Old Tall Tree Lane;Minnesota
 3494;Moveit Motercycle Service;600 Central Ave.;Indiana
@@ -3520,6 +3401,7 @@ id;CustomerName;CustomerAddress;State
 3519;Air France;600 Central Ave;Arkansas
 3520;Garfield Appliance Service;245 Oakridge Ave.;Oregon
 3521;Hardee Woodwork Ltd.;673 Calais Drive;Kentucky
+3491;K L Consulting;511 Hill;Arkansas
 3522;DBN Bank;2148 Eastview Dr.;Utah
 3523;Hibbard Road Suppliers;241 Callan Rd.;Oregon
 3524;Lake Shore Beaches;1715 Chicago Ave.;Oklahoma
@@ -3567,8 +3449,6 @@ id;CustomerName;CustomerAddress;State
 3566;First National Bank of Ottowa;1912 Old Briar Lane #2;Maryland
 3567;Bernhardt Ltd.;3062 Lindenwood Ln.;Louisiana
 3568;Schnitzer Denist College;750 Homewood Ave.;Arkansas
-3569;Crossroads Construction, Inc.;241 Callan Rd.;Ohio
-3570;Glenwood Credit Union;310 Walker Ave.;Maryland
 3571;Morton Roofing and Siding;1575 Oakwood Ave.;Hawaii
 3572;Cutter Lawn Mower Repair;313 Grove Ave.;Nevada
 3573;Caranisco Homes;1875 Roger Williams Ave.;Colorado
@@ -3613,7 +3493,6 @@ id;CustomerName;CustomerAddress;State
 3612;Pasifico Inc.;241 Callan Rd.;North Carolina
 3613;AA Advertising;1799 Rosemary Way;Delaware
 3614;Tub's Furniture Store;1949 Cloverdale Rd.;California
-3615;PGS Associates;1714 Clifton Rd.;South Carolina
 3616;Myers Chocolates and Confectio;3150 Skokie Valley Rd.;Nevada
 3617;Nirabi Auto Service;1486 Oakwood;Oregon
 3618;Hibop Heating and Air Conditio;59 Cordon Terr.;Indiana
@@ -3626,7 +3505,6 @@ id;CustomerName;CustomerAddress;State
 3625;MedicServe Medical Supply;1450 Harding Ave.;Kentucky
 3626;Air Guatamala;45 South Deer Creek Drive;Michigan
 3627;Green Bay Travel Services;746 Judson Place;Maine
-3628;Glenwood Credit Union;1752 Clinton Ave.;California
 3629;Hart Corporation;115 Pleasent Ave.;Ohio
 3630;Ernie's Foriegn Car Service;643 De Temple Rd.;Indiana
 3631;MedicServe Medical Supply;1547 Vine;Nevada
@@ -3696,7 +3574,6 @@ id;CustomerName;CustomerAddress;State
 3695;Keyth Contracting and Repair;2032 Northbrook Ct.;North Dakota
 3696;Flinn Mosquito and Pest Contro;2870 Skokie Rd.;Wisconsin
 3697;Office Pro Supply Co.;899 Harvard Ct;South Dakota
-3698;Air France;1547 Knolwood Rd.;Texas
 3699;Dependable Plumbing and Sewer;139 Bay Colony Dr.;Texas
 3700;Loyal Order of Buffalo;225 Jeffrys Place;Maryland
 3701;Acme Chemical Supply;225 Jeffrys Place;New Mexico
@@ -3841,7 +3718,6 @@ id;CustomerName;CustomerAddress;State
 3840;Air Barbados;1233 Arbor Rd.;Vermont
 3841;Park District Of America;45 South Deer Creek Drive;Missouri
 3842;Myers Chocolates and Confectio;1235 Easton Rd.;New Jersey
-3843;Toggle & Myerson Ltd;334 Lynn Terrace;Rhode Island
 3844;Futoons Cartoons Emporium;302-A Crestwood Village Rd.;Nebraska
 3845;Marcy Elaine Bakery;1575 Oak Ave.  Apt. 2C;New Mexico
 3846;AAA Daniels Antiques;1450 Harding Ave.;Tennessee
@@ -4061,7 +3937,6 @@ id;CustomerName;CustomerAddress;State
 4060;Parkway Auto Body;54 Lakeview Terrace;Wisconsin
 4061;Camp Stuff;4763 Blackhawk Rd.;Kentucky
 4062;Glenwood Credit Union;1920 Sunnyside Ave.;Rhode Island
-4063;Green Shoes Corp.;120 high St.;Arkansas
 4064;North Shore Appliance Service;425 Lake Ave.;Iowa
 4065;Toggle & Myerson Ltd;970 Vilas Circle;Iowa
 4066;Childress Child Day Care;844 Spruce St.;New Mexico
@@ -4092,6 +3967,7 @@ id;CustomerName;CustomerAddress;State
 4091;Derbin Contracting Services;1715 Chicago Ave.;West Virginia
 4092;Nel Video Productions;1444 Chantilly Ln.;Nevada
 4093;Venturi Discount Drugs;654 Walnut Rd.;Illinois
+4063;Green Shoes Corp.;120 high St.;Arkansas
 4094;Elle Hypnosis and Therapy Cent;600 Central Ave;Missouri
 4095;Meonits & Mogogni Inc.;1550 Ridge Rd.;Mississippi
 4096;Gourmet the Frog;3478 Bryn Mawr St.;Texas
@@ -4137,7 +4013,6 @@ id;CustomerName;CustomerAddress;State
 4136;Gilbert Co.;1799 Rosemary Way;Missouri
 4137;Nina's Snow Plowing;965 Marion Place Apt. 65C;Kentucky
 4138;Air Guatamala;1337 Cavell Ave.;Delaware
-4139;Ebert Music Center;970 Vilas Circle;Utah
 4140;Innman Paint and Glass;368 Woodland Rd.;Kentucky
 4141;Bernhardt Ltd.;1633 McGovern place;Utah
 4142;Bee Line Publishing;654 Walnut Rd.;Minnesota
@@ -4145,7 +4020,6 @@ id;CustomerName;CustomerAddress;State
 4144;Lennox Air Pollution Control;1714 Clifton Rd.;Alabama
 4145;Jay's Cabinet Company;3062 Lindenwood Ln.;New Mexico
 4146;Resnick DDS;1920 Sunnyside Ave.;New Jersey
-4147;Johnson, Erico & Co CPA's;231 Sheriden Rd.;Delaware
 4148;Got It All Electronics Supply;2479 Woodridge Drive;Connecticut
 4149;Car Suite Cleaners;367Bluebird Terr.;Arkansas
 4150;AAA Daniels Antiques;241 Callan Rd.;Idaho
@@ -4177,13 +4051,11 @@ id;CustomerName;CustomerAddress;State
 4176;Air Mexico;1234 Devonshire Court;Alabama
 4177;Cutter Lawn Mower Repair;1704 Ridgelee Rd;New Hampshire
 4178;Schnitzer Denist College;1912 Old Briar Lane #2;Delaware
-4179;DBN Bank;2936 Arlington Ave.;South Dakota
 4180;Dean Grant Buick and Crysler;886 Yale Lane;Wisconsin
 4181;Esmarda Chemical Manufacturers;1770 first St.;Nebraska
 4182;Resnick DDS;1234 Devonshire Court;Tennessee
 4183;George Lee Antiques;1535 Knollwood Drive;West Virginia
 4184;Esmarda Chemical Manufacturers;334 Lynn Terrace;Idaho
-4185;Green Shoes Corp.;574 Chicago Ave.;Kentucky
 4186;Terrinni & Son Auto and Truck;355 Golf Rd.;Arkansas
 4187;Hibop Heating and Air Conditio;1875 Roger Williams Ave.;Ohio
 4188;First National Bank of Ottowa;266 Green Bay Rd.;Alaska
@@ -4220,7 +4092,6 @@ id;CustomerName;CustomerAddress;State
 4219;Cosmo Skin Care Center;632 Florence Dr.;Indiana
 4220;Air France;139 Bay Colony Dr.;Nebraska
 4221;Cutter Lawn Mower Repair;785 Highland place;New Mexico
-4222;Nirabi Auto Service;1547 Vine;Ohio
 4223;Marks, Marks, and Kaplan Ltd.;2112 Ravine Drive;Michigan
 4224;Foy Aviation;115 Pleasent Ave.;Nevada
 4225;Air France;3059 Priscilla Court;Colorado
@@ -4233,6 +4104,7 @@ id;CustomerName;CustomerAddress;State
 4232;Corbins, Rodriguez, & Savocchi;1975 elmwood Circle;New York
 4233;Lee Stairworks and Carpentry,;77 Blackhawk Rd;Connecticut
 4234;Dapper's Antiques;1077 Court Ave.;Ohio
+59;Nitelites Party Rental;12 Walker Ave.;Oregon
 4235;Green Bay Travel Services;1019 Deerfield Rd.;Kentucky
 4236;Pasifico Inc.;1957 Huntington Ave.;Utah
 4237;Jay's Cabinet Company;1859 Green Bay Rd.;Minnesota
@@ -4276,7 +4148,6 @@ id;CustomerName;CustomerAddress;State
 4275;Johnson, Erico & Co CPA's;1486 Old Deerfield Rd.;Georgia
 4276;Innman Paint and Glass;1482 Concorde Circle;Kentucky
 4277;Hibbard Road Suppliers;616 Cobblestone Cir.;Colorado
-4278;Chicagoland Cleaners;59 Cordon Terr.;Montana
 4279;Nyman Interior Design;4763 Blackhawk Rd.;Minnesota
 4280;Smith Communications Inc.;115 Pleasent Ave.;Idaho
 4281;Maintence Services of Maine;3148 cottonwood Ct.;Colorado
@@ -4469,7 +4340,6 @@ id;CustomerName;CustomerAddress;State
 4468;Mergenthaler Inc.;807 Old Trail Rd.;Oklahoma
 4469;Camp Oconomowoc;865 Old Tall Tree Lane;Delaware
 4470;Vanity Town;1233 Arbor Rd.;Louisiana
-4471;Kermit the Pet Shop;600 Central Ave.;Delaware
 4472;Cosmo Skin Care Center;310 Walker Ave.;Wisconsin
 4473;Portugal, Liddy, & Son Ltd.;4259 W. Lake Ave.;Iowa
 4474;Childress Child Day Care;266 Green Bay Rd.;Kansas
@@ -4502,6 +4372,7 @@ id;CustomerName;CustomerAddress;State
 4501;Mac Computer Warehouse;1907 S. Prospect Ave.;New Hampshire
 4502;Got It All Electronics Supply;1777 balsamic Ave.;Oklahoma
 4503;Trapezoid Studios;2644 Princeton Ln.;Oklahoma
+60;Vanity Town;1701 W. Mellody Rd.;New York
 4504;janice Mann Accounting Service;3148 cottonwood Ct.;Connecticut
 4505;Pac Builders;2224 Sherman Rd.;Georgia
 4506;Portugal, Liddy, & Son Ltd.;632 Roger Williams;Mississippi
@@ -4515,7 +4386,6 @@ id;CustomerName;CustomerAddress;State
 4514;AAA Daniels Antiques;1450 Harding Ave.;New York
 4515;Chicagoland Cleaners;201-C Frontage Rd.;Wisconsin
 4516;Mergenthaler Inc.;3478 Bryn Mawr St.;Montana
-4517;Nitelites Party Rental;917 Fairview Ave.  Apt. 982;Kentucky
 4518;Bill's Dive Shop;1619 Judson Ave. Apt #34B;Arkansas
 4519;Hoffman Printing Center;231 Sheriden Rd.;New Hampshire
 4520;Glenwood Credit Union;1482 Concorde Circle;Oregon
@@ -4549,7 +4419,6 @@ id;CustomerName;CustomerAddress;State
 4548;P K M Packaging Supply;225 Jeffrys Place;Alaska
 4549;Lennox Air Pollution Control;785 Highland place;Idaho
 4550;Flinn Mosquito and Pest Contro;1858 Balsam Way;Rhode Island
-4551;Pac Builders;662 Lyons Circle;Alaska
 4552;Peterson Roberts Carpentry;1450 Harding Ave.;Montana
 4553;Lee Stairworks and Carpentry,;1575 Oak Ave.  Apt. 2C;Hawaii
 4554;Energy Source Diet Centers;224  Highwood Ave.;New Jersey
@@ -4590,6 +4459,8 @@ id;CustomerName;CustomerAddress;State
 4589;Elm Place Business Supplies;120 high St.;Alabama
 4590;Garfield Appliance Service;511 Maple Ave.  Apt. 1B;Maine
 4591;Shaggy's Grooming Services;201-C Frontage Rd.;North Carolina
+61;DBN Bank;456 Grossman Ln.;Ohio
+4551;Pac Builders;662 Lyons Circle;Alaska
 4592;Cotton Thumb Ltd.;872 Virginia Rd.;Iowa
 4593;Tub's Furniture Store;1633 McGovern place;New Hampshire
 4594;Cutter Lawn Mower Repair;2479 Woodridge Drive;Iowa
@@ -4615,7 +4486,6 @@ id;CustomerName;CustomerAddress;State
 4614;Cotton Thumb Ltd.;2045 St. johns Ave.;Vermont
 4615;Lee Stairworks and Carpentry,;1235 Easton Rd.;Connecticut
 4616;Shaggy's Grooming Services;3487 Green Bay Rd.;Michigan
-4617;Bako Delicatessen;1875 Roger Williams Ave.;New York
 4618;Energy Source Diet Centers;2632 Prarie Ln.;Illinois
 4619;Glassman & Stone;266 Green Bay Rd.;Iowa
 4620;Doll House Rock;1799 Rosemary Way;Iowa
@@ -4649,7 +4519,6 @@ id;CustomerName;CustomerAddress;State
 4648;Vanity Town;1658 Second St.;Virginia
 4649;Myers Chocolates and Confectio;1019 Deerfield Rd.;Mississippi
 4650;Mail Boxes Et. Al.;2112 Ravine Drive;Wyoming
-4651;Air Indonesia;1486 Old Deerfield Rd.;Georgia
 4652;Nyman Interior Design;12 Craven Way;Pennsylvania
 4653;Vecot Inc.;10 Marquette Rd.;Georgia
 4654;Camp Oconomowoc;2224 Sherman Rd.;Idaho
@@ -4707,7 +4576,6 @@ id;CustomerName;CustomerAddress;State
 4706;American Deli Workers Union;654 Walnut Rd.;North Carolina
 4707;Michael Montgomery Hair Saloon;1575 Oak Ave.  Apt. 2C;Iowa
 4708;Terrinni & Son Auto and Truck;456 Groverland Ave.;Montana
-4709;Cotton Thumb Ltd.;1575 Oakwood Ave.;Wisconsin
 4710;Nitelites Party Rental;456 Groverland Ave.;Indiana
 4711;Hibop Heating and Air Conditio;1065 Hillcrest Circle;Georgia
 4712;Yale Remins Temp Agency;242 Ashland Ave.;North Dakota
@@ -4859,6 +4727,7 @@ id;CustomerName;CustomerAddress;State
 4858;Lutz Soft Cloth Car Wash;505 N. Frances St.;Wisconsin
 4859;Glenwood Credit Union;406 Trinity Ct.;Georgia
 4860;Chands CPA;1799 Rosemary Way;Georgia
+62;BBQ Smith's Tex Mex;1101 Deerfield Place;Florida
 4861;Hi-Land Art & Frame;5518 Madison St.;Iowa
 4862;Terrinni & Son Auto and Truck;899 Harvard Ct;Oklahoma
 4863;Morton Roofing and Siding;135 Lakewood place;Louisiana
@@ -4896,7 +4765,6 @@ id;CustomerName;CustomerAddress;State
 4895;Lake Shore Beaches;1859 Green Bay Rd.;Massachusetts
 4896;Foy Aviation;1535 Knollwood Drive;New Hampshire
 4897;Lake Shore Publishing;1658 Second St.;North Dakota
-4898;Jay's Cabinet Company;225 Jeffrys Place;Arkansas
 4899;Jay's Cabinet Company;3901 Chester Ave. Apt. 3C;Illinois
 4900;Hilco Auto Body;1245 Eastwood;Georgia
 4901;Lake Shore Publishing;1831 Beverly Place #9D;Virginia
@@ -4904,6 +4772,85 @@ id;CustomerName;CustomerAddress;State
 4903;Hi-Land Art & Frame;135 Lakewood place;Illinois
 4904;Smith Communications Inc.;1220 Heather Lane;Colorado
 4905;AA Advertising;600 Central Ave;Missouri
+4930;George Lee Antiques;4259 W. Lake Ave.;Delaware
+4931;P K M Packaging Supply;12 Skokie Valley Rd.;Texas
+4932;Mergenthaler Inc.;1101 Deerfield Place;North Dakota
+4933;Keep Cool Air Conditioner Repa;673 Calais Drive;Wyoming
+4934;Doerner's Awnings and Canopies;839 Burton Ave;Florida
+4935;North Shore Appliance Service;456 Grossman Ln.;New York
+4936;Transformation Enterprises;807 Old Trail Rd.;West Virginia
+4937;Nel Video Productions;550 Sheridan;Idaho
+4938;Bee Line Publishing;3344 Beachwood Ln.;Arizona
+4939;Nyman Interior Design;115 Judson Rd.;Mississippi
+4940;Cosmo Skin Care Center;12 Fort Sheriden Ave.;Maryland
+4941;Percy Photography;12 Craven Way;Arkansas
+4942;P K M Packaging Supply;406 Trinity Ct.;Oklahoma
+4943;Nitelites Party Rental;1799 Rosemary Way;Wisconsin
+4944;Doerner's Awnings and Canopies;1795 Lake Cook Rd.;Connecticut
+4945;Esmarda Chemical Manufacturers;210 Cresant Rd.;Pennsylvania
+4961;Trapezoid Studios;3150 Skokie Valley Rd.;Ohio
+4962;Block Boats and Lures;225 Jeffrys Place;Mississippi
+4963;Loyal Order of Buffalo;2510 Crain;Washington
+4964;Corbins, Rodriguez, & Savocchi;3059 Priscilla Court;Wyoming
+4965;Got It All Electronics Supply;550 Sheridan;Delaware
+4966;Happ Aluminum Siding Co.;844 Spruce St.;Texas
+4967;Johnson, Erico & Co CPA's;2870 Skokie Rd.;Montana
+4968;Arthur M. Feildberg Galleries;135 Lakewood place;New Mexico
+4969;Hilco Auto Body;2479 Woodridge Drive;New Mexico
+4970;Resnick DDS;917 Fairview Ave.  Apt. 982;Massachusetts
+4971;AAA Daniels Antiques;669 Kikaid;South Dakota
+4972;Hilco Auto Body;669 Kikaid;Idaho
+34;Foy Aviation;511 Hill;Maryland
+75;Green Bay Travel Services;1795 Lake Cook Rd.;Nevada
+76;Caranisco Homes;310 Walker Ave.;Rhode Island
+77;Doll House Rock;844 Spruce St.;Wisconsin
+78;Moveit Motercycle Service;965 Marion Place Apt. 65C;Illinois
+79;Funnyface Amusement Games;511 Hill;Idaho
+1;Griffith Paving and Sealcoatin;talend@apres91;Florida
+3;Childress Child Day Care;662 Lyons Circle;Alabama
+4;Facelift Kitchen and Bath;unknown;
+5;Terrinni & Son Auto and Truck;770 Exmoor Rd.;
+6;Kermit the Pet Shop;1860 Parkside Ln.;Nevada
+7;Tub's Furniture Store;807 Old Trail Rd.;Iowa
+8;Toggle & Myerson Ltd;618 Sheriden rd.;Florida
+9;Childress Child Day Care;788 Tennyson Ave.;Idaho
+33;Childress Child Day Care;1912 Old Briar Lane #2;Michigan
+10;Elle Hypnosis and Therapy Cent;2032 Northbrook Ct.;Alabama
+11;Lennox Air Pollution Control;4522 N. Greenview Apt. 1B;West Virginia
+12;Keyth Contracting and Repair;1547 Knolwood Rd.;Missouri
+13;Park District Of America;2678 Sheridan Rd.;Virginia
+14;Nirabi Auto Service;1915 Lewis Ln.  Apt 13;Delaware
+15;Darcy Frame and Matting Servic;1633 McGovern place;Massachusetts
+16;Glenwood Credit Union;511 Maple Ave.  Apt. 1B;Virginia
+17;Gourmet the Frog;788 Tennyson Ave.;Alabama
+18;Acturial Enterprises Ltd.;3385 University Ave.;North Dakota
+19;Salt & Pepper Catering Service;965 Marion Place Apt. 65C;Utah
+21;Parkway Auto Body;1859 Green Bay Rd.;Nebraska
+141;DBN Bank;2600 Winsor Mall;Maryland
+197;Air Barbados;42 Valley Rd.;Oregon
+244;Foy Aviation;1715 Chicago Ave.;Mississippi
+312;Chands CPA;3478 Bryn Mawr St.;Kentucky
+346;Froggy's Gourmet Catering;2024 St.Johns Ave.;New York
+562;Lake Shore Beaches;42 Valley Rd.;Wisconsin
+584;Lake Shore Beaches;854 Woodbine;Rhode Island
+917;Air Indonesia;857 Woodbine Rd;Missouri
+1268;DBN Bank;445 Park Ave.;Mississippi
+1527;Air France;242 Ashland Ave.;Kentucky
+1856;Rythmics Ltd.;511 Hill;Wyoming
+1887;Bill's Dive Shop;1486 Oakwood;Illinois
+2251;Pasifico Inc.;505 N. Frances St.;Kentucky
+2578;AA Advertising;844 Spruce St.;Idaho
+2769;Air France;512 Hill;Virginia
+2888;Pac Builders;1575 Oakwood Ave.;South Carolina
+3031;Air Indonesia;355 Golf Rd.;Oregon
+3357;Air India;22 Clay rd.;Wyoming
+3615;PGS Associates;1714 Clifton Rd.;South Carolina
+3843;Toggle & Myerson Ltd;334 Lynn Terrace;Rhode Island
+4179;DBN Bank;2936 Arlington Ave.;South Dakota
+4185;Green Shoes Corp.;574 Chicago Ave.;Kentucky
+4278;Chicagoland Cleaners;59 Cordon Terr.;Montana
+4471;Kermit the Pet Shop;600 Central Ave.;Delaware
+4651;Air Indonesia;1486 Old Deerfield Rd.;Georgia
 4906;Nitelites Party Rental;512 Hill;Maryland
 4907;Morton Roofing and Siding;632 Florence Dr.;New York
 4908;Deer Lake Inn;3901 Chester Ave. Apt. 3C;Wyoming
@@ -4928,22 +4875,6 @@ id;CustomerName;CustomerAddress;State
 4927;AAA Daniels Antiques;844 Spruce St.;Rhode Island
 4928;Kosmo Consulting;12 Walker Ave.;Georgia
 4929;Schmidt Denists;1858 Balsam Way;New Hampshire
-4930;George Lee Antiques;4259 W. Lake Ave.;Delaware
-4931;P K M Packaging Supply;12 Skokie Valley Rd.;Texas
-4932;Mergenthaler Inc.;1101 Deerfield Place;North Dakota
-4933;Keep Cool Air Conditioner Repa;673 Calais Drive;Wyoming
-4934;Doerner's Awnings and Canopies;839 Burton Ave;Florida
-4935;North Shore Appliance Service;456 Grossman Ln.;New York
-4936;Transformation Enterprises;807 Old Trail Rd.;West Virginia
-4937;Nel Video Productions;550 Sheridan;Idaho
-4938;Bee Line Publishing;3344 Beachwood Ln.;Arizona
-4939;Nyman Interior Design;115 Judson Rd.;Mississippi
-4940;Cosmo Skin Care Center;12 Fort Sheriden Ave.;Maryland
-4941;Percy Photography;12 Craven Way;Arkansas
-4942;P K M Packaging Supply;406 Trinity Ct.;Oklahoma
-4943;Nitelites Party Rental;1799 Rosemary Way;Wisconsin
-4944;Doerner's Awnings and Canopies;1795 Lake Cook Rd.;Connecticut
-4945;Esmarda Chemical Manufacturers;210 Cresant Rd.;Pennsylvania
 4946;Glenwood Credit Union;135 Lakewood place;Arkansas
 4947;Derbin Contracting Services;1287 Glencoe Ave.;Connecticut
 4948;Keep Cool Air Conditioner Repa;1912 Old Briar Lane #2;New Jersey
@@ -4959,18 +4890,6 @@ id;CustomerName;CustomerAddress;State
 4958;Ampro Office Team Ltd.;1547 Knolwood Rd.;Montana
 4959;North West Gas Co.;3148 cottonwood Ct.;Arizona
 4960;Schnitzer Denist College;2032 Northbrook Ct.;Mississippi
-4961;Trapezoid Studios;3150 Skokie Valley Rd.;Ohio
-4962;Block Boats and Lures;225 Jeffrys Place;Mississippi
-4963;Loyal Order of Buffalo;2510 Crain;Washington
-4964;Corbins, Rodriguez, & Savocchi;3059 Priscilla Court;Wyoming
-4965;Got It All Electronics Supply;550 Sheridan;Delaware
-4966;Happ Aluminum Siding Co.;844 Spruce St.;Texas
-4967;Johnson, Erico & Co CPA's;2870 Skokie Rd.;Montana
-4968;Arthur M. Feildberg Galleries;135 Lakewood place;New Mexico
-4969;Hilco Auto Body;2479 Woodridge Drive;New Mexico
-4970;Resnick DDS;917 Fairview Ave.  Apt. 982;Massachusetts
-4971;AAA Daniels Antiques;669 Kikaid;South Dakota
-4972;Hilco Auto Body;669 Kikaid;Idaho
 4973;Truck-X Muffler Repair;465 Stratford Rd.;Florida
 4974;Pivot Point College;1077 Court Ave.;Kentucky
 4975;Hardee Woodwork Ltd.;1715 Chicago Ave.;Iowa
@@ -4990,6 +4909,87 @@ id;CustomerName;CustomerAddress;State
 4989;Loyal Order of Buffalo;3059 Priscilla Court;Massachusetts
 4990;Lee Stairworks and Carpentry,;244 Briar Ln;Indiana
 4991;Myers Chocolates and Confectio;3100 Trailer Way;West Virginia
+2;Air Mexico;511 Maple Ave.  Apt. 1B;Ohio
+20;Rythmics Ltd.;1875 Roger Williams Ave.;Michigan
+22;Futoons Cartoons Emporium;1486 Old Deerfield Rd.;Mississippi
+23;Glenn Oaks Office Supplies;1882 St. Johns;Georgia
+24;Garfield Appliance Service;3150 Skokie Valley Rd.;North Carolina
+25;New Dehli Auto Exchange;1957 Huntington Ave.;Wisconsin
+26;Kermit the Pet Shop;12 Skokie Valley Rd.;Vermont
+27;Hibbard Road Suppliers;1858 Balsam Way;Nevada
+3628;Glenwood Credit Union;1752 Clinton Ave.;California
+28;Peterson Roberts Carpentry;59 Cordon Terr.;Idaho
+29;Acme Chemical Supply;1858 Balsam Way;Colorado
+30;Truck-X Muffler Repair;807 Old Trail Rd.;Missouri
+31;Arthur M. Feildberg Galleries;1220 Heather Lane;Oregon
+32;Cotton Thumb Ltd.;1882 St. Johns;Illinois
+35;Nyman Interior Design;2505 Allison ct.;Washington
+36;Got It All Electronics Supply;629 Kincaid Ave.;Michigan
+37;PGS Associates;726 White Oaks Ave.;Montana
+38;Yale Remins Temp Agency;1912 Old Briar Lane #2;Wisconsin
+39;Mergenthaler Inc.;673 Calais Drive;Vermont
+40;Elm Place Business Supplies;505 N. Frances St.;Kansas
+41;Parties Galore Golf Course;77 Blackhawk Rd;Montana
+42;Glenn Oaks Office Supplies;2600 Winsor Mall;Pennsylvania
+43;Metro Appliance Service;2936 Arlington Ave.;New Jersey
+44;Parkway Auto Body;726 White Oaks Ave.;Indiana
+45;Quad City Cleaning;218 Oakridge Ave.;West Virginia
+46;Hi-Land Art & Frame;3478 Bryn Mawr St.;Idaho
+47;Brand Y Creative Services;14836 W. River Oaks Dr.;Ohio
+48;George Lee Antiques;632 Roger Williams;Virginia
+49;Johnson, Erico & Co CPA's;5518 Madison St.;Kentucky
+50;Trapezoid Studios;1831 Beverly Place #9D;Iowa
+51;American Deli Workers Union;618 Sheriden rd.;Arkansas
+52;Schmidt Denists;844 Spruce St.;Washington
+53;Crossroads Construction, Inc.;2267 Anderson Lane;California
+63;Pivot Point College;1547 Knolwood Rd.;Florida
+64;Highland Woods City Hall;430 Oakland Drive;Florida
+65;Mail Boxes Et. Al.;1859 Green Bay Rd.;New Jersey
+66;Smith & Wesson Militia;1750 Lily Court;Nebraska
+67;Acturial Enterprises Ltd.;1486 Oakwood;New York
+68;Resnick DDS;726 White Oaks Ave.;Colorado
+69;Air Mexico;313 Grove Ave.;Colorado
+70;janice Mann Accounting Service;3181 Barkwood Ct.;Nevada
+71;Pete's Auto Repair;1436 Waverly Rd.;New York
+72;Michael Montgomery Hair Saloon;1077 Court Ave.;Florida
+73;Gordon & Son Brockerage Ltd.;313 Grove Ave.;Wisconsin
+74;Bee Line Publishing;3344 Beachwood Ln.;Virginia
+145;Woodworks Co.;445 Park Ave.;Hawaii
+224;AA Advertising;35 Glenlake Dr.;Illinois
+238;Innman Paint and Glass;643 De Temple Rd.;Michigan
+425;Lee Stairworks and Carpentry,;425 Lake Ave.;Colorado
+617;Air India;368 Woodland Rd.;Oklahoma
+643;Air France;425 Lake Ave.;Tennessee
+821;Quad City Cleaning;5518 Madison St.;Montana
+922;Hart Corporation;854 Woodbine;Idaho
+1085;Camp Oconomowoc;1337 Cavell Ave.;Wyoming
+1195;Camp Oconomowoc;3478 Bryn Mawr St.;Nevada
+1562;AA Advertising;2510 Crain;Idaho
+1611;Bill's Dive Shop;512 Hill;Minnesota
+1663;Vecot Inc.;2220 Grant Blvd.;Ohio
+1747;Morton Roofing and Siding;12 Craven Way;Utah
+1759;Tub's Furniture Store;245 Oakridge Ave.;Virginia
+1863;BBQ Smith's Tex Mex;839 Burton Ave;Alabama
+1870;Bernhardt Ltd.;445 Park Ave.;Delaware
+1958;Cotton Thumb Ltd.;218 Oakridge Ave.;Florida
+2229;Percy Photography;1858 Balsam Way;Nevada
+2246;Marcy Elaine Bakery;2870 Skokie Rd.;Alabama
+2335;Vanity Town;600 Central Ave.;Minnesota
+2433;Bernhardt Ltd.;770 Exmoor Rd.;Texas
+2677;Air France;1882 St. Johns;Wyoming
+2904;Pac Builders;1907 S. Prospect Ave.;Idaho
+2993;Air Indonesia;3148 cottonwood Ct.;Georgia
+3289;Innman Paint and Glass;1337 Cavell Ave.;Maryland
+3569;Crossroads Construction, Inc.;241 Callan Rd.;Ohio
+3570;Glenwood Credit Union;310 Walker Ave.;Maryland
+3698;Air France;1547 Knolwood Rd.;Texas
+4139;Ebert Music Center;970 Vilas Circle;Utah
+4147;Johnson, Erico & Co CPA's;231 Sheriden Rd.;Delaware
+4222;Nirabi Auto Service;1547 Vine;Ohio
+4517;Nitelites Party Rental;917 Fairview Ave.  Apt. 982;Kentucky
+4617;Bako Delicatessen;1875 Roger Williams Ave.;New York
+4709;Cotton Thumb Ltd.;1575 Oakwood Ave.;Wisconsin
+4898;Jay's Cabinet Company;225 Jeffrys Place;Arkansas
 4992;Cosmo Skin Care Center;1777 balsamic Ave.;New Mexico
 4993;Froggy's Gourmet Catering;1245 Eastwood;Rhode Island
 4994;Elle Hypnosis and Therapy Cent;1450 Harding Ave.;Rhode Island

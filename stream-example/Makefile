@@ -2,6 +2,7 @@
 run:
 	sudo kubectl create -f stream.yaml
 	sudo kubectl create -f grafana.yaml
+	sudo kubectl create -f kafka-connect-ui.yaml
 
 delete:
 	sudo kubectl delete namespace stream
