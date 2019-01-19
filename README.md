@@ -64,10 +64,23 @@ sudo minikube status
 ## Install Airflow on Kubernetes
 * in your home directory:
 ```shell
-git clone https://github.com/apache/airflow
+git clone https://github.com/apache/incubator-airflow.git
+cd incubator-airflow
+```
+* Change postgres.yaml image to debezium/postgres 
+```shell
+vi ./scripts/ci/kubernetes/kube/postgres.yaml
+```
+* Build
+```shell
 # Build
 export SLUGIFY_USES_TEXT_UNIDECODE=yes
-./scripts/ci/kubernetes/Docker/build.sh
+./scripts/ci/kubernetes/docker/build.sh
+# Change Executor to LocalExecutor
+sudo sed -ie "s/KubernetesExecutor/LocalExecutor/g" scripts/ci/kubernetes/kube/build/configmaps.yaml
+```
+* Run
+```shell
 # Deploy
 sudo ./scripts/ci/kubernetes/kube/deploy.sh -d persistent_mode
 ```
