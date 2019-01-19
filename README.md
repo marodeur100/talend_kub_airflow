@@ -42,10 +42,6 @@ curl -SLO https://github.com/kubernetes/minikube/releases/download/v0.28.2/minik
 chmod +x minikube-linux-amd64
 sudo mv minikube-linux-amd64 /usr/local/bin/minikube
 ```
-* if there are issues with kube-dns pods crashlooping try
-```shell
-sudo kubectl -n kube-system get deployment kube-dns -o yaml |   sed 's/allowPrivilegeEscalation: false/allowPrivilegeEscalation: true/g' |  sudo kubectl apply -f -
-```
 
 ## (Cleanup and Re) Start Minikube
 * use ```shell sudo minikube start --vm-driver=none ```to start Minikube
@@ -59,6 +55,10 @@ sudo minikube delete # may also need rm -rf ~/.minikube && \
 # Start Minikube
 sudo minikube start --vm-driver=none
 sudo minikube status
+```
+* fix crashlooping kube-dns issue
+```shell
+sudo kubectl get deployment --namespace=kube-system kube-dns -oyaml|sed -r 's,(.*--server)=(/ip6.arpa/.*),&\n\1=8.8.8.8,'|sudo kubectl apply -f -
 ```
 
 ## Install Airflow on Kubernetes
