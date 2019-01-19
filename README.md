@@ -42,8 +42,14 @@ curl -SLO https://github.com/kubernetes/minikube/releases/download/v0.28.2/minik
 chmod +x minikube-linux-amd64
 sudo mv minikube-linux-amd64 /usr/local/bin/minikube
 ```
+* if there are issues with kube-dns pods crashlooping try
+```shell
+sudo kubectl -n kube-system get deployment kube-dns -o yaml |   sed 's/allowPrivilegeEscalation: false/allowPrivilegeEscalation: true/g' |  sudo kubectl apply -f -
+```
 
-## (Cleanup and Re)Start Minikube
+## (Cleanup and Re) Start Minikube
+* use ```shell sudo minikube start --vm-driver=none ```to start Minikube
+* in case you re-started the VM please use the following command to clean up:
 ```shell
 # Optional Cleanup tasks
 cd /etc/kubernetes/ && \
