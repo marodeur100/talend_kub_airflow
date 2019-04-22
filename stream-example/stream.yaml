@@ -234,6 +234,35 @@ spec:
         beta.kubernetes.io/os: linux
 ---
 apiVersion: v1
+kind: Pod
+metadata:
+  name: ksql-server
+  labels:
+    app: ksql-server
+  namespace: stream
+spec:
+  # nodeName: minikube
+  containers:
+  - name: ksql-server
+    image: confluentinc/ksql-cli
+    imagePullPolicy: IfNotPresent
+    command: ["/bin/bash"]
+    args: ["-c","echo Waiting for Kafka to be ready... && \
+                       cub kafka-ready -b kafka-broker1:9092 1 20 && \
+                       echo Waiting a few seconds for topic creation to finish... && \
+                       sleep 2 && \
+                       /usr/bin/ksql-server-start /etc/ksql/ksql-server.properties"]
+    env:
+    - name: KSQL_CONFIG_DIR
+      value: "/etc/ksql"
+    - name: KSQL_OPTS
+      value: "-Dbootstrap.servers=kafka-broker1:9092"
+    - name: KSQL_LOG4J_OPTS
+      value: "-Dlog4j.configuration=file:/etc/ksql/log4j-rolling.properties"
+    ports:
+    - containerPort: 8088
+---
+apiVersion: v1
 kind: Service
 metadata:
   name: elasticsearch
@@ -275,5 +304,21 @@ spec:
       nodePort: 30083
   selector:
     app: debezium-connect-source
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ksql-server
+  namespace: stream
+  labels:
+    app: ksql-server
+spec:
+  type: NodePort
+  ports:
+    - port: 8080
+      name: ksql
+      nodePort: 30080
+  selector:
+    app: ksql-server
 
 
