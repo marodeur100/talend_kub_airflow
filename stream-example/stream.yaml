@@ -92,7 +92,8 @@ spec:
         - name: KAFKA_ADVERTISED_PORT
           value: "9092"
         - name: KAFKA_ADVERTISED_HOST_NAME
-          value: kafka-broker1.$(MY_POD_NAMESPACE)
+          # value: kafka-broker1.$(MY_POD_NAMESPACE)
+          value: localhost
         - name: KAFKA_ZOOKEEPER_CONNECT
           value: zoo1.$(MY_POD_NAMESPACE):2181
         - name: KAFKA_BROKER_ID
@@ -234,35 +235,6 @@ spec:
         beta.kubernetes.io/os: linux
 ---
 apiVersion: v1
-kind: Pod
-metadata:
-  name: ksql-server
-  labels:
-    app: ksql-server
-  namespace: stream
-spec:
-  # nodeName: minikube
-  containers:
-  - name: ksql-server
-    image: confluentinc/ksql-cli
-    imagePullPolicy: IfNotPresent
-    command: ["/bin/bash"]
-    args: ["-c","echo Waiting for Kafka to be ready... && \
-                       cub kafka-ready -b kafka-broker1:9092 1 20 && \
-                       echo Waiting a few seconds for topic creation to finish... && \
-                       sleep 2 && \
-                       /usr/bin/ksql-server-start /etc/ksql/ksql-server.properties"]
-    env:
-    - name: KSQL_CONFIG_DIR
-      value: "/etc/ksql"
-    - name: KSQL_OPTS
-      value: "-Dbootstrap.servers=kafka-broker1:9092"
-    - name: KSQL_LOG4J_OPTS
-      value: "-Dlog4j.configuration=file:/etc/ksql/log4j-rolling.properties"
-    ports:
-    - containerPort: 8088
----
-apiVersion: v1
 kind: Service
 metadata:
   name: elasticsearch
@@ -305,20 +277,79 @@ spec:
   selector:
     app: debezium-connect-source
 ---
+kind: Deployment
+apiVersion: extensions/v1beta1
+metadata:
+  name: legacy-db
+  namespace: stream
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: legacy-db
+    spec:
+      restartPolicy: Always
+      containers:
+        - name: postgres
+          image: debezium/postgres
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 5432
+              protocol: TCP
+          volumeMounts:
+            - name: dbvol
+              mountPath: /var/lib/postgresql/data/pgdata
+              subPath: pgdata
+          env:
+            - name: POSTGRES_USER
+              value: root
+            - name: POSTGRES_PASSWORD
+              value: root
+            - name: POSTGRES_DB
+              value: legacy
+            - name: PGDATA
+              value: /var/lib/postgresql/data/pgdata
+            - name: POD_IP
+              valueFrom: { fieldRef: { fieldPath: status.podIP } }
+          livenessProbe:
+            initialDelaySeconds: 60
+            timeoutSeconds: 5
+            failureThreshold: 5
+            exec:
+              command:
+              - /bin/sh
+              - -c
+              - exec pg_isready --host $POD_IP ||  if [[ $(psql -qtAc --host $POD_IP 'SELECT pg_is_in_recovery') != "f" ]]; then  exit 0 else; exit 1; fi
+          readinessProbe:
+            initialDelaySeconds: 5
+            timeoutSeconds: 5
+            periodSeconds: 5
+            exec:
+              command:
+              - /bin/sh
+              - -c
+              - exec pg_isready --host $POD_IP
+          resources:
+            requests:
+              memory: .5Gi
+              cpu: .5
+      volumes:
+        - name: dbvol
+          emptyDir: {}
+---
 apiVersion: v1
 kind: Service
 metadata:
-  name: ksql-server
+  name: legacy-db
   namespace: stream
-  labels:
-    app: ksql-server
 spec:
-  type: NodePort
   ports:
-    - port: 8080
-      name: ksql
-      nodePort: 30080
+    - port: 5432
+      targetPort: 5432
+      nodePort: 30032
   selector:
-    app: ksql-server
+    name: legacy-db
+  type: NodePort
 
 

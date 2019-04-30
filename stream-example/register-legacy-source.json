@@ -1,0 +1,19 @@
+{
+    "name": "legacy-connector",
+    "config": {
+        "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+        "tasks.max": "1",
+        "database.hostname": "legacy-db",
+        "database.port": "5432",
+        "database.user": "root",
+        "database.password": "root",
+        "database.dbname" : "legacy",
+        "database.server.name": "dbserver1",
+        "database.history.kafka.bootstrap.servers": "kafka-broker1:9092",
+        "database.history.kafka.topic": "schema-changes.legacy",
+        "transforms": "route",
+        "transforms.route.type": "org.apache.kafka.connect.transforms.RegexRouter",
+        "transforms.route.regex": "([^.]+)\\.([^.]+)\\.([^.]+)",
+        "transforms.route.replacement": "$3"
+    }
+}

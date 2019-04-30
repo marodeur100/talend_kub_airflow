@@ -32,3 +32,14 @@ key:
 fix_dns:
 	sudo kubectl get deployment --namespace=kube-system kube-dns -oyaml|sed -r 's,(.*--server)=(/ip6.arpa/.*),&\n\1=8.8.8.8,'|sudo kubectl apply -f -
 
+deploy_airflow:
+	# Optional Cleanup tasks
+	cd /etc/kubernetes/ && \
+	sudo rm *.conf && \
+	cd && \
+	sudo minikube delete
+	sudo rm -rf ~/.minikube
+	# Start Minikube
+	sudo minikube start --vm-driver=none
+	sudo kubectl get deployment --namespace=kube-system kube-dns -oyaml|sed -r 's,(.*--server)=(/ip6.arpa/.*),&\n\1=8.8.8.8,'|sudo kubectl apply -f -
+	sudo ../incubator-airflow/scripts/ci/kubernetes/kube/deploy.sh -d persistent_mode
